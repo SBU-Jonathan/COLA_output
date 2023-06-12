@@ -1,0 +1,1971 @@
+Running on host dn003
+Time is Thu Jun 8 11:43:48 EDT 2023
+Directory is /gpfs/projects/MirandaGroup/jonathan/FML
+Slurm job NAME is run
+Slurm job ID is 105359
+Number of task is 128
+Number of cpus per task is
+
+#=====================================================
+#           ________________  .____         
+#           \_   _____/     \ |    |      
+#            |    __)/  \ /  \|    |      
+#            |     \/    Y    \    |___   
+#            \___  /\____|__  /_______ \ 
+#                \/         \/        \/ 
+#
+# Initializing FML, MPI and FFTW
+# MPI is enabled. Running with 128 MPI tasks
+# OpenMP is enabled. Main task has 1 threads availiable
+# MPI + Threads is working
+# FFTW is enabled. Thread support is enabled
+#
+# List of tasks:
+# Task    0 [dn003]
+#     x-domain [       0 , 0.0078125)
+# Task    1 [dn003]
+#     x-domain [0.0078125 , 0.015625)
+# Task    2 [dn003]
+#     x-domain [0.015625 , 0.0234375)
+# Task    3 [dn003]
+#     x-domain [0.0234375 ,  0.03125)
+# Task    4 [dn003]
+#     x-domain [ 0.03125 , 0.0390625)
+# Task    5 [dn003]
+#     x-domain [0.0390625 , 0.046875)
+# Task    6 [dn003]
+#     x-domain [0.046875 , 0.0546875)
+# Task    7 [dn003]
+#     x-domain [0.0546875 ,   0.0625)
+# Task    8 [dn003]
+#     x-domain [  0.0625 , 0.0703125)
+# Task    9 [dn003]
+#     x-domain [0.0703125 , 0.078125)
+# Task   10 [dn003]
+#     x-domain [0.078125 , 0.0859375)
+# Task   11 [dn003]
+#     x-domain [0.0859375 ,  0.09375)
+# Task   12 [dn003]
+#     x-domain [ 0.09375 , 0.101562)
+# Task   13 [dn003]
+#     x-domain [0.101562 , 0.109375)
+# Task   14 [dn003]
+#     x-domain [0.109375 , 0.117188)
+# Task   15 [dn003]
+#     x-domain [0.117188 ,    0.125)
+# Task   16 [dn004]
+#     x-domain [   0.125 , 0.132812)
+# Task   17 [dn004]
+#     x-domain [0.132812 , 0.140625)
+# Task   18 [dn004]
+#     x-domain [0.140625 , 0.148438)
+# Task   19 [dn004]
+#     x-domain [0.148438 ,  0.15625)
+# Task   20 [dn004]
+#     x-domain [ 0.15625 , 0.164062)
+# Task   21 [dn004]
+#     x-domain [0.164062 , 0.171875)
+# Task   22 [dn004]
+#     x-domain [0.171875 , 0.179688)
+# Task   23 [dn004]
+#     x-domain [0.179688 ,   0.1875)
+# Task   24 [dn004]
+#     x-domain [  0.1875 , 0.195312)
+# Task   25 [dn004]
+#     x-domain [0.195312 , 0.203125)
+# Task   26 [dn004]
+#     x-domain [0.203125 , 0.210938)
+# Task   27 [dn004]
+#     x-domain [0.210938 ,  0.21875)
+# Task   28 [dn004]
+#     x-domain [ 0.21875 , 0.226562)
+# Task   29 [dn004]
+#     x-domain [0.226562 , 0.234375)
+# Task   30 [dn004]
+#     x-domain [0.234375 , 0.242188)
+# Task   31 [dn004]
+#     x-domain [0.242188 ,     0.25)
+# Task   32 [dn005]
+#     x-domain [    0.25 , 0.257812)
+# Task   33 [dn005]
+#     x-domain [0.257812 , 0.265625)
+# Task   34 [dn005]
+#     x-domain [0.265625 , 0.273438)
+# Task   35 [dn005]
+#     x-domain [0.273438 ,  0.28125)
+# Task   36 [dn005]
+#     x-domain [ 0.28125 , 0.289062)
+# Task   37 [dn005]
+#     x-domain [0.289062 , 0.296875)
+# Task   38 [dn005]
+#     x-domain [0.296875 , 0.304688)
+# Task   39 [dn005]
+#     x-domain [0.304688 ,   0.3125)
+# Task   40 [dn005]
+#     x-domain [  0.3125 , 0.320312)
+# Task   41 [dn005]
+#     x-domain [0.320312 , 0.328125)
+# Task   42 [dn005]
+#     x-domain [0.328125 , 0.335938)
+# Task   43 [dn005]
+#     x-domain [0.335938 ,  0.34375)
+# Task   44 [dn005]
+#     x-domain [ 0.34375 , 0.351562)
+# Task   45 [dn005]
+#     x-domain [0.351562 , 0.359375)
+# Task   46 [dn005]
+#     x-domain [0.359375 , 0.367188)
+# Task   47 [dn005]
+#     x-domain [0.367188 ,    0.375)
+# Task   48 [dn011]
+#     x-domain [   0.375 , 0.382812)
+# Task   49 [dn011]
+#     x-domain [0.382812 , 0.390625)
+# Task   50 [dn011]
+#     x-domain [0.390625 , 0.398438)
+# Task   51 [dn011]
+#     x-domain [0.398438 ,  0.40625)
+# Task   52 [dn011]
+#     x-domain [ 0.40625 , 0.414062)
+# Task   53 [dn011]
+#     x-domain [0.414062 , 0.421875)
+# Task   54 [dn011]
+#     x-domain [0.421875 , 0.429688)
+# Task   55 [dn011]
+#     x-domain [0.429688 ,   0.4375)
+# Task   56 [dn011]
+#     x-domain [  0.4375 , 0.445312)
+# Task   57 [dn011]
+#     x-domain [0.445312 , 0.453125)
+# Task   58 [dn011]
+#     x-domain [0.453125 , 0.460938)
+# Task   59 [dn011]
+#     x-domain [0.460938 ,  0.46875)
+# Task   60 [dn011]
+#     x-domain [ 0.46875 , 0.476562)
+# Task   61 [dn011]
+#     x-domain [0.476562 , 0.484375)
+# Task   62 [dn011]
+#     x-domain [0.484375 , 0.492188)
+# Task   63 [dn011]
+#     x-domain [0.492188 ,      0.5)
+# Task   64 [dn012]
+#     x-domain [     0.5 , 0.507812)
+# Task   65 [dn012]
+#     x-domain [0.507812 , 0.515625)
+# Task   66 [dn012]
+#     x-domain [0.515625 , 0.523438)
+# Task   67 [dn012]
+#     x-domain [0.523438 ,  0.53125)
+# Task   68 [dn012]
+#     x-domain [ 0.53125 , 0.539062)
+# Task   69 [dn012]
+#     x-domain [0.539062 , 0.546875)
+# Task   70 [dn012]
+#     x-domain [0.546875 , 0.554688)
+# Task   71 [dn012]
+#     x-domain [0.554688 ,   0.5625)
+# Task   72 [dn012]
+#     x-domain [  0.5625 , 0.570312)
+# Task   73 [dn012]
+#     x-domain [0.570312 , 0.578125)
+# Task   74 [dn012]
+#     x-domain [0.578125 , 0.585938)
+# Task   75 [dn012]
+#     x-domain [0.585938 ,  0.59375)
+# Task   76 [dn012]
+#     x-domain [ 0.59375 , 0.601562)
+# Task   77 [dn012]
+#     x-domain [0.601562 , 0.609375)
+# Task   78 [dn012]
+#     x-domain [0.609375 , 0.617188)
+# Task   79 [dn012]
+#     x-domain [0.617188 ,    0.625)
+# Task   80 [dn013]
+#     x-domain [   0.625 , 0.632812)
+# Task   81 [dn013]
+#     x-domain [0.632812 , 0.640625)
+# Task   82 [dn013]
+#     x-domain [0.640625 , 0.648438)
+# Task   83 [dn013]
+#     x-domain [0.648438 ,  0.65625)
+# Task   84 [dn013]
+#     x-domain [ 0.65625 , 0.664062)
+# Task   85 [dn013]
+#     x-domain [0.664062 , 0.671875)
+# Task   86 [dn013]
+#     x-domain [0.671875 , 0.679688)
+# Task   87 [dn013]
+#     x-domain [0.679688 ,   0.6875)
+# Task   88 [dn013]
+#     x-domain [  0.6875 , 0.695312)
+# Task   89 [dn013]
+#     x-domain [0.695312 , 0.703125)
+# Task   90 [dn013]
+#     x-domain [0.703125 , 0.710938)
+# Task   91 [dn013]
+#     x-domain [0.710938 ,  0.71875)
+# Task   92 [dn013]
+#     x-domain [ 0.71875 , 0.726562)
+# Task   93 [dn013]
+#     x-domain [0.726562 , 0.734375)
+# Task   94 [dn013]
+#     x-domain [0.734375 , 0.742188)
+# Task   95 [dn013]
+#     x-domain [0.742188 ,     0.75)
+# Task   96 [dn050]
+#     x-domain [    0.75 , 0.757812)
+# Task   97 [dn050]
+#     x-domain [0.757812 , 0.765625)
+# Task   98 [dn050]
+#     x-domain [0.765625 , 0.773438)
+# Task   99 [dn050]
+#     x-domain [0.773438 ,  0.78125)
+# Task  100 [dn050]
+#     x-domain [ 0.78125 , 0.789062)
+# Task  101 [dn050]
+#     x-domain [0.789062 , 0.796875)
+# Task  102 [dn050]
+#     x-domain [0.796875 , 0.804688)
+# Task  103 [dn050]
+#     x-domain [0.804688 ,   0.8125)
+# Task  104 [dn050]
+#     x-domain [  0.8125 , 0.820312)
+# Task  105 [dn050]
+#     x-domain [0.820312 , 0.828125)
+# Task  106 [dn050]
+#     x-domain [0.828125 , 0.835938)
+# Task  107 [dn050]
+#     x-domain [0.835938 ,  0.84375)
+# Task  108 [dn050]
+#     x-domain [ 0.84375 , 0.851562)
+# Task  109 [dn050]
+#     x-domain [0.851562 , 0.859375)
+# Task  110 [dn050]
+#     x-domain [0.859375 , 0.867188)
+# Task  111 [dn050]
+#     x-domain [0.867188 ,    0.875)
+# Task  112 [dn051]
+#     x-domain [   0.875 , 0.882812)
+# Task  113 [dn051]
+#     x-domain [0.882812 , 0.890625)
+# Task  114 [dn051]
+#     x-domain [0.890625 , 0.898438)
+# Task  115 [dn051]
+#     x-domain [0.898438 ,  0.90625)
+# Task  116 [dn051]
+#     x-domain [ 0.90625 , 0.914062)
+# Task  117 [dn051]
+#     x-domain [0.914062 , 0.921875)
+# Task  118 [dn051]
+#     x-domain [0.921875 , 0.929688)
+# Task  119 [dn051]
+#     x-domain [0.929688 ,   0.9375)
+# Task  120 [dn051]
+#     x-domain [  0.9375 , 0.945312)
+# Task  121 [dn051]
+#     x-domain [0.945312 , 0.953125)
+# Task  122 [dn051]
+#     x-domain [0.953125 , 0.960938)
+# Task  123 [dn051]
+#     x-domain [0.960938 ,  0.96875)
+# Task  124 [dn051]
+#     x-domain [ 0.96875 , 0.976562)
+# Task  125 [dn051]
+#     x-domain [0.976562 , 0.984375)
+# Task  126 [dn051]
+#     x-domain [0.984375 , 0.992188)
+# Task  127 [dn051]
+#     x-domain [0.992188 ,        1)
+#
+#=====================================================
+
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Information about (an empty) particle of the given type:
+# Below we only show info about methods we have implemented support for
+# Particle uses fiducial communication append_to_buffer method (assumes no dynamic alloc inside class)
+# Particle uses fiducial communication assign_from_buffer method (assumes no dynamic alloc inside class)
+# Particle uses fiducial size method. Size of particle is 104 bytes
+# Dimension is 3
+# Particle has [Position] (24 bytes)
+# Particle has [Velocity] (24 bytes)
+# Particle has [ID] (8 bytes)
+# Particle has [1LPT Displacement field] (12 bytes)
+# Particle has [2LPT Displacement field] (12 bytes)
+# Particle has [Lagrangian position] (24 bytes)
+# Particle compatible with 2LPT COLA
+# Particle compatible with 2+ LPT scaledependent COLA
+#
+#=====================================================
+
+
+#=====================================================
+# Parameter map contains 55 elements:
+#=====================================================
+  all_parameters_must_be_in_file : true
+  bispectrum                     : false
+  cosmology_As                   : 1.95313e-09    
+  cosmology_Neffective           : 3.046          
+  cosmology_OmegaCDM             : 0.296784       
+  cosmology_OmegaLambda          : 0.644566       
+  cosmology_OmegaMNu             : 0.00127607     
+  cosmology_Omegab               : 0.0573739      
+  cosmology_TCMB_kelvin          : 2.7255         
+  cosmology_h                    : 0.698727       
+  cosmology_kpivot_mpc           : 0.05           
+  cosmology_model                : LCDM           
+  cosmology_ns                   : 0.926836       
+  fof                            : false
+  force_density_assignment_method : CIC            
+  force_kernel                   : continuous_greens_function
+  force_linear_massive_neutrinos : true
+  force_nmesh                    : 2048           
+  gravity_model                  : GR             
+  ic_LPT_order                   : 2              
+  ic_fix_amplitude               : true
+  ic_initial_redshift            : 19             
+  ic_input_filename              : /gpfs/projects/MirandaGroup/jonathan/cola_projects/LCDM/400_1/transferinfo_files/transferinfo77.txt
+  ic_input_redshift              : 19             
+  ic_nmesh                       : 1024           
+  ic_random_field_type           : gaussian       
+  ic_random_generator            : GSL            
+  ic_random_seed                 : 1234           
+  ic_reverse_phases              : true
+  ic_sigma8                      : 0.83           
+  ic_sigma8_normalization        : false
+  ic_sigma8_redshift             : 0              
+  ic_type_of_input               : transferinfofile
+  ic_use_gravity_model_GR        : true
+  output_fileformat              : GADGET         
+  output_folder                  : /gpfs/projects/MirandaGroup/jonathan/cola_projects/LCDM/400_1/b/output/77
+  output_particles               : false
+  output_redshifts               : [              3 2 1 0.5 0 ]
+  particle_Npart_1D              : 1024           
+  particle_allocation_factor     : 1.25           
+  pofk                           : true
+  pofk_density_assignment_method : PCS            
+  pofk_interlacing               : true
+  pofk_multipole                 : false
+  pofk_nmesh                     : 1024           
+  pofk_subtract_shotnoise        : false
+  simulation_boxsize             : 1024           
+  simulation_name                : run_77         
+  simulation_use_cola            : true
+  simulation_use_scaledependent_cola : true
+  timestep_algorithm             : KDK            
+  timestep_cola_nLPT             : -2.5           
+  timestep_method                : Quinn          
+  timestep_nsteps                : [              12 5 8 9 17 ]
+  timestep_scalefactor_spacing   : linear         
+#=====================================================
+
+
+#=====================================================
+# Cosmology [LCDM]
+# Omegab      : 0.0573739
+# OmegaM      : 0.355434
+# OmegaMNu    : 0.00127607
+# OmegaCDM    : 0.296784
+# OmegaLambda : 0.644566
+# OmegaR      : 5.06528e-05
+# OmegaNu     : 3.504e-05
+# OmegaRtot   : 8.56929e-05
+# OmegaK      : -8.56929e-05
+# h           : 0.698727
+# N_nu        : 3
+# Neff        : 3.046
+# Mnu         : 0.0579371 eV
+# TCMB        : 2.7255 K
+# Tnu         : 1.95278 K
+# As          : 1.95313e-09
+# ns          : 0.926836
+# kpivot      : 0.05 1/Mpc
+#=====================================================
+
+
+#=====================================================
+# GravityModel is [GR] and has the cosmology: [LCDM]
+# Growth factors unity at zini = 19
+# Starting integrating growth factors from z = 20
+# scaledependent_growth : true
+#=====================================================
+
+
+#=====================================================
+# NBodySimulation::read_parameters
+#=====================================================
+
+simulation_name                          : run_77
+simulation_boxsize                       : 1024
+simulation_use_cola                      : true
+simulation_use_scaledependent_cola       : true
+force_nmesh                              : 2048
+force_kernel                             : continuous_greens_function
+force_density_assignment_method          : CIC
+force_linear_massive_neutrinos           : true
+ic_type_of_input                         : transferinfofile
+ic_input_filename                        : /gpfs/projects/MirandaGroup/jonathan/cola_projects/LCDM/400_1/transferinfo_files/transferinfo77.txt
+ic_random_field_type                     : gaussian
+ic_input_redshift                        : 19
+ic_nmesh                                 : 1024
+ic_random_seed                           : 1234
+ic_random_generator                      : GSL
+ic_LPT_order                             : 2
+ic_fix_amplitude                         : true
+ic_reverse_phases                        : true
+ic_type_of_input                         : transferinfofile
+particle_Npart_1D                        : 1024
+particle_allocation_factor               : 1.25
+timestep_nsteps                          : 12 5 8 9 17 
+timestep_method                          : Quinn
+timestep_algorithm                       : KDK
+timestep_scalefactor_spacing             : linear
+pofk                                     : true
+pofk_nmesh                               : 1024
+pofk_interlacing                         : true
+pofk_subtract_shotnoise                  : false
+pofk_density_assignment_method           : PCS
+output_particles                         : false
+output_redshifts                         : 3 , 2 , 1 , 0.5 , 0 , 
+output_fileformat                        : GADGET
+output_folder                            : /gpfs/projects/MirandaGroup/jonathan/cola_projects/LCDM/400_1/b/output/77
+
+#=====================================================
+# Create initial conditions
+#=====================================================
+
+
+#=====================================================
+# Testing splines: 
+#=====================================================
+k =  0.01: P(k,zini) = 76.5458 (Mpc/h)^3
+k =  0.10: P(k,zini) = 22.8655 (Mpc/h)^3
+k =  1.00: P(k,zini) = 0.291873 (Mpc/h)^3
+k = 10.00: P(k,zini) = 0.00149809 (Mpc/h)^3
+
+#=====================================================
+# Sigma(R = 8 Mpc/h, z = 0.0 ) : 0.842529       
+#=====================================================
+
+#=====================================================
+#
+#                .___  _________   
+#                |   | \_   ___ \  
+#                |   | /    \  \/  
+#                |   | \     \____ 
+#                |___|  \______  / 
+#                              \/  
+#
+# Generating initial conditions for N-body
+# Order in LPT = 2
+# The boxsize is 1024 comoving Mpc/h
+# The initial redshift zini = 19
+# Particle has [Position] x_code = x / Box (24 bytes)
+# Particle has [Velocity] v_code = a^2 dxdt / (H0 Box) (24 bytes)
+# Particle has [ID] (8 bytes)
+# Particle has [1LPT Displacement field] (12 bytes)
+# Particle has [2LPT Displacement field] (12 bytes)
+# Particle has [Lagrangian position] (24 bytes)
+# Total size of particle is 104 bytes
+# We will make 1024^3 particles
+# Plus a buffer with room for 25%% more particles
+# We will allocate ~1090.52 MB per task for the particles
+#
+#=====================================================
+
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8388608 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               80 %% (min)
+#               80 %% (max) filled across tasks
+#
+#=====================================================
+
+Storing unique ID in particle
+Storing Lagrangian position q in particle
+Adding 1LPT position to particle
+Adding 1LPT velocity to particle
+Storing 1LPT displacment field in particle
+Maximum 1LPT displacements: 2.13815 Mpc/h
+Maximum 1LPT velocity: 572.203 km/s peculiar
+Adding 2LPT position to particle
+Adding 2LPT velocity to particle
+Storing 2LPT displacment field in particle
+Maximum 2LPT displacements: 0.0694398 Mpc/h
+Maximum 2LPT velocity: 37.0635 km/s peculiar
+Storing initial 2LPT potential 
+
+#=====================================================
+# The time-steps and outputs we plan to take
+#=====================================================
+
+Next output z = 3 nsteps: 12
+Step: 0    / 12  
+Positions  from z = 19              -> 14             
+Velocities from z = 19              -> 16.1429        
+Step: 1    / 12  
+Positions  from z = 14              -> 11             
+Velocities from z = 16.1429         -> 12.3333        
+Step: 2    / 12  
+Positions  from z = 11              -> 9              
+Velocities from z = 12.3333         -> 9.90909        
+Step: 3    / 12  
+Positions  from z = 9               -> 7.57143        
+Velocities from z = 9.90909         -> 8.23077        
+Step: 4    / 12  
+Positions  from z = 7.57143         -> 6.5            
+Velocities from z = 8.23077         -> 7              
+Step: 5    / 12  
+Positions  from z = 6.5             -> 5.66667        
+Velocities from z = 7               -> 6.05882        
+Step: 6    / 12  
+Positions  from z = 5.66667         -> 5              
+Velocities from z = 6.05882         -> 5.31579        
+Step: 7    / 12  
+Positions  from z = 5               -> 4.45455        
+Velocities from z = 5.31579         -> 4.71429        
+Step: 8    / 12  
+Positions  from z = 4.45455         -> 4              
+Velocities from z = 4.71429         -> 4.21739        
+Step: 9    / 12  
+Positions  from z = 4               -> 3.61538        
+Velocities from z = 4.21739         -> 3.8            
+Step: 10   / 12  
+Positions  from z = 3.61538         -> 3.28571        
+Velocities from z = 3.8             -> 3.44444        
+Step: 11   / 12  
+Positions  from z = 3.28571         -> 3              
+Velocities from z = 3.44444         -> 3.13793        
+Step: 12   / 12  
+Positions  from z = 3               -> 3              
+Velocities from z = 3.13793         -> 3              
+
+Next output z = 2 nsteps: 5
+Step: 0    / 5   
+Positions  from z = 3               -> 2.75           
+Velocities from z = 3               -> 2.87097        
+Step: 1    / 5   
+Positions  from z = 2.75            -> 2.52941        
+Velocities from z = 2.87097         -> 2.63636        
+Step: 2    / 5   
+Positions  from z = 2.52941         -> 2.33333        
+Velocities from z = 2.63636         -> 2.42857        
+Step: 3    / 5   
+Positions  from z = 2.33333         -> 2.15789        
+Velocities from z = 2.42857         -> 2.24324        
+Step: 4    / 5   
+Positions  from z = 2.15789         -> 2              
+Velocities from z = 2.24324         -> 2.07692        
+Step: 5    / 5   
+Positions  from z = 2               -> 2              
+Velocities from z = 2.07692         -> 2              
+
+Next output z = 1 nsteps: 8
+Step: 0    / 8   
+Positions  from z = 2               -> 1.82353        
+Velocities from z = 2               -> 1.90909        
+Step: 1    / 8   
+Positions  from z = 1.82353         -> 1.66667        
+Velocities from z = 1.90909         -> 1.74286        
+Step: 2    / 8   
+Positions  from z = 1.66667         -> 1.52632        
+Velocities from z = 1.74286         -> 1.59459        
+Step: 3    / 8   
+Positions  from z = 1.52632         -> 1.4            
+Velocities from z = 1.59459         -> 1.46154        
+Step: 4    / 8   
+Positions  from z = 1.4             -> 1.28571        
+Velocities from z = 1.46154         -> 1.34146        
+Step: 5    / 8   
+Positions  from z = 1.28571         -> 1.18182        
+Velocities from z = 1.34146         -> 1.23256        
+Step: 6    / 8   
+Positions  from z = 1.18182         -> 1.08696        
+Velocities from z = 1.23256         -> 1.13333        
+Step: 7    / 8   
+Positions  from z = 1.08696         -> 1              
+Velocities from z = 1.13333         -> 1.04255        
+Step: 8    / 8   
+Positions  from z = 1               -> 1              
+Velocities from z = 1.04255         -> 1              
+
+Next output z = 0.5 nsteps: 9
+Step: 0    / 9   
+Positions  from z = 1               -> 0.928571       
+Velocities from z = 1               -> 0.963636       
+Step: 1    / 9   
+Positions  from z = 0.928571        -> 0.862069       
+Velocities from z = 0.963636        -> 0.894737       
+Step: 2    / 9   
+Positions  from z = 0.862069        -> 0.8            
+Velocities from z = 0.894737        -> 0.830508       
+Step: 3    / 9   
+Positions  from z = 0.8             -> 0.741935       
+Velocities from z = 0.830508        -> 0.770492       
+Step: 4    / 9   
+Positions  from z = 0.741935        -> 0.6875         
+Velocities from z = 0.770492        -> 0.714286       
+Step: 5    / 9   
+Positions  from z = 0.6875          -> 0.636364       
+Velocities from z = 0.714286        -> 0.661538       
+Step: 6    / 9   
+Positions  from z = 0.636364        -> 0.588235       
+Velocities from z = 0.661538        -> 0.61194        
+Step: 7    / 9   
+Positions  from z = 0.588235        -> 0.542857       
+Velocities from z = 0.61194         -> 0.565217       
+Step: 8    / 9   
+Positions  from z = 0.542857        -> 0.5            
+Velocities from z = 0.565217        -> 0.521127       
+Step: 9    / 9   
+Positions  from z = 0.5             -> 0.5            
+Velocities from z = 0.521127        -> 0.5            
+
+Next output z = 0 nsteps: 17
+Step: 0    / 17  
+Positions  from z = 0.5             -> 0.457143       
+Velocities from z = 0.5             -> 0.478261       
+Step: 1    / 17  
+Positions  from z = 0.457143        -> 0.416667       
+Velocities from z = 0.478261        -> 0.43662        
+Step: 2    / 17  
+Positions  from z = 0.416667        -> 0.378378       
+Velocities from z = 0.43662         -> 0.39726        
+Step: 3    / 17  
+Positions  from z = 0.378378        -> 0.342105       
+Velocities from z = 0.39726         -> 0.36           
+Step: 4    / 17  
+Positions  from z = 0.342105        -> 0.307692       
+Velocities from z = 0.36            -> 0.324675       
+Step: 5    / 17  
+Positions  from z = 0.307692        -> 0.275          
+Velocities from z = 0.324675        -> 0.291139       
+Step: 6    / 17  
+Positions  from z = 0.275           -> 0.243902       
+Velocities from z = 0.291139        -> 0.259259       
+Step: 7    / 17  
+Positions  from z = 0.243902        -> 0.214286       
+Velocities from z = 0.259259        -> 0.228916       
+Step: 8    / 17  
+Positions  from z = 0.214286        -> 0.186047       
+Velocities from z = 0.228916        -> 0.2            
+Step: 9    / 17  
+Positions  from z = 0.186047        -> 0.159091       
+Velocities from z = 0.2             -> 0.172414       
+Step: 10   / 17  
+Positions  from z = 0.159091        -> 0.133333       
+Velocities from z = 0.172414        -> 0.146067       
+Step: 11   / 17  
+Positions  from z = 0.133333        -> 0.108696       
+Velocities from z = 0.146067        -> 0.120879       
+Step: 12   / 17  
+Positions  from z = 0.108696        -> 0.0851064      
+Velocities from z = 0.120879        -> 0.0967742      
+Step: 13   / 17  
+Positions  from z = 0.0851064       -> 0.0625         
+Velocities from z = 0.0967742       -> 0.0736842      
+Step: 14   / 17  
+Positions  from z = 0.0625          -> 0.0408163      
+Velocities from z = 0.0736842       -> 0.0515464      
+Step: 15   / 17  
+Positions  from z = 0.0408163       -> 0.02           
+Velocities from z = 0.0515464       -> 0.030303       
+Step: 16   / 17  
+Positions  from z = 0.02            -> 0              
+Velocities from z = 0.030303        -> 0.00990099     
+Step: 17   / 17  
+Positions  from z = 0               -> 0              
+Velocities from z = 0.00990099      -> 0              
+
+
+#=====================================================
+# Starting main time-stepping loop
+#=====================================================
+
+
+Taking substep: 0 / 12 Total steps taken: 0
+Positions from  z = 19              -> 14             
+Velocities from z = 19              -> 16.1429        
+deltatime_pos = 2.00665         deltatime_vel = 1.19999        
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 8.71085e-05
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 4.11939e-05
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8392448 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               79.5694 %% (min)
+#               80.4071 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.36         MB (min over tasks)
+# Current RSS: 4139.86         MB (max over tasks)
+# Peak RSS:    4714.5          MB (min over tasks)
+# Peak RSS:    4716.52         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 12 Total steps taken: 1
+Positions from  z = 14              -> 11             
+Velocities from z = 16.1429         -> 12.3333        
+deltatime_pos = 1.36964         deltatime_vel = 1.6248         
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.00028469
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 7.80073e-05
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8396304 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               79.5228 %% (min)
+#               80.4952 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.49         MB (min over tasks)
+# Current RSS: 4140.09         MB (max over tasks)
+# Peak RSS:    4714.9          MB (min over tasks)
+# Peak RSS:    4719.5          MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 12 Total steps taken: 2
+Positions from  z = 11              -> 9              
+Velocities from z = 12.3333         -> 9.90909        
+deltatime_pos = 1.01094         deltatime_vel = 1.16182        
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000244703
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 8.34084e-05
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8396199 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               79.476 %% (min)
+#               80.5638 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.62         MB (min over tasks)
+# Current RSS: 4140.19         MB (max over tasks)
+# Peak RSS:    4715.02         MB (min over tasks)
+# Peak RSS:    4719.6          MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 12 Total steps taken: 3
+Positions from  z = 9               -> 7.57143        
+Velocities from z = 9.90909         -> 8.23077        
+deltatime_pos = 0.785464        deltatime_vel = 0.883307       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000201714
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000124447
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8396291 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               79.3965 %% (min)
+#               80.6524 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.65         MB (min over tasks)
+# Current RSS: 4146.97         MB (max over tasks)
+# Peak RSS:    4715.06         MB (min over tasks)
+# Peak RSS:    4719.64         MB (max over tasks)
+#=====================================================
+
+Taking substep: 4 / 12 Total steps taken: 4
+Positions from  z = 7.57143         -> 6.5            
+Velocities from z = 8.23077         -> 7              
+deltatime_pos = 0.632824        deltatime_vel = 0.700511       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000219594
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000215579
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8396499 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               79.2975 %% (min)
+#               80.7338 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.71         MB (min over tasks)
+# Current RSS: 4147.22         MB (max over tasks)
+# Peak RSS:    4715.13         MB (min over tasks)
+# Peak RSS:    4726.39         MB (max over tasks)
+#=====================================================
+
+Taking substep: 5 / 12 Total steps taken: 5
+Positions from  z = 6.5             -> 5.66667        
+Velocities from z = 7               -> 6.05882        
+deltatime_pos = 0.523799        deltatime_vel = 0.572922       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000285512
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000310383
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8397021 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               79.1796 %% (min)
+#               80.8265 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.89         MB (min over tasks)
+# Current RSS: 4158.53         MB (max over tasks)
+# Peak RSS:    4715.13         MB (min over tasks)
+# Peak RSS:    4726.66         MB (max over tasks)
+#=====================================================
+
+Taking substep: 6 / 12 Total steps taken: 6
+Positions from  z = 5.66667         -> 5              
+Velocities from z = 6.05882         -> 5.31579        
+deltatime_pos = 0.442698        deltatime_vel = 0.479689       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000322592
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000455862
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8397290 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               79.0898 %% (min)
+#               80.9207 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.91         MB (min over tasks)
+# Current RSS: 4158.7          MB (max over tasks)
+# Peak RSS:    4715.33         MB (min over tasks)
+# Peak RSS:    4737.98         MB (max over tasks)
+#=====================================================
+
+Taking substep: 7 / 12 Total steps taken: 7
+Positions from  z = 5               -> 4.45455        
+Velocities from z = 5.31579         -> 4.71429        
+deltatime_pos = 0.38041         deltatime_vel = 0.409096       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000351018
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000554001
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8397312 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               79.0089 %% (min)
+#               81.0164 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.51         MB (min over tasks)
+# Current RSS: 4158.57         MB (max over tasks)
+# Peak RSS:    4715.37         MB (min over tasks)
+# Peak RSS:    4738.26         MB (max over tasks)
+#=====================================================
+
+Taking substep: 8 / 12 Total steps taken: 8
+Positions from  z = 4.45455         -> 4              
+Velocities from z = 4.71429         -> 4.21739        
+deltatime_pos = 0.331323        deltatime_vel = 0.354108       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000433512
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000656083
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8397886 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.9244 %% (min)
+#               81.0847 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.52         MB (min over tasks)
+# Current RSS: 4158.84         MB (max over tasks)
+# Peak RSS:    4715.52         MB (min over tasks)
+# Peak RSS:    4738.26         MB (max over tasks)
+#=====================================================
+
+Taking substep: 9 / 12 Total steps taken: 9
+Positions from  z = 4               -> 3.61538        
+Velocities from z = 4.21739         -> 3.8            
+deltatime_pos = 0.291805        deltatime_vel = 0.310268       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000488878
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000858217
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8397804 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.8376 %% (min)
+#               81.1712 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.43         MB (min over tasks)
+# Current RSS: 4159.46         MB (max over tasks)
+# Peak RSS:    4715.96         MB (min over tasks)
+# Peak RSS:    4738.33         MB (max over tasks)
+#=====================================================
+
+Taking substep: 10 / 12 Total steps taken: 10
+Positions from  z = 3.61538         -> 3.28571        
+Velocities from z = 3.8             -> 3.44444        
+deltatime_pos = 0.259419        deltatime_vel = 0.274633       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000527635
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000965104
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8396966 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.7565 %% (min)
+#               81.2574 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.56         MB (min over tasks)
+# Current RSS: 4159.73         MB (max over tasks)
+# Peak RSS:    4716.2          MB (min over tasks)
+# Peak RSS:    4739.14         MB (max over tasks)
+#=====================================================
+
+Taking substep: 11 / 12 Total steps taken: 11
+Positions from  z = 3.28571         -> 3              
+Velocities from z = 3.44444         -> 3.13793        
+deltatime_pos = 0.232468        deltatime_vel = 0.245189       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000520342
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00116817
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8396952 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.6657 %% (min)
+#               81.3433 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.66         MB (min over tasks)
+# Current RSS: 4159.89         MB (max over tasks)
+# Peak RSS:    4716.2          MB (min over tasks)
+# Peak RSS:    4739.31         MB (max over tasks)
+#=====================================================
+
+Taking substep: 12 / 12 Total steps taken: 12
+Positions from  z = 3               -> 3              
+Velocities from z = 3.13793         -> 3              
+deltatime_pos = -7.34362e-16    deltatime_vel = 0.111251       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000141056
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 3.67504e-18
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8396952 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.6657 %% (min)
+#               81.3433 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.67         MB (min over tasks)
+# Current RSS: 4159.91         MB (max over tasks)
+# Peak RSS:    4716.2          MB (min over tasks)
+# Peak RSS:    4756.12         MB (max over tasks)
+#=====================================================
+
+#=====================================================
+# Analyze and output
+#=====================================================
+Doing output 0 at redshift z = 3
+Snapshot will be stored in folder /gpfs/projects/MirandaGroup/jonathan/cola_projects/LCDM/400_1/b/output/77/snapshot_run_77_z3.000
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+#=====================================================
+# Computing power-spectrum of particles
+# pofk_nmesh                     : 1024
+# pofk_density_assignment_method : PCS
+# pofk_interlacing               : true
+# pofk_subtract_shotnoise        : false
+#=====================================================
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+Taking substep: 0 / 5 Total steps taken: 12
+Positions from  z = 3               -> 2.75           
+Velocities from z = 3               -> 2.87097        
+deltatime_pos = 0.209745        deltatime_vel = 0.109263       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000136058
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00115888
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8395476 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.5788 %% (min)
+#               81.4173 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.71         MB (min over tasks)
+# Current RSS: 4159.96         MB (max over tasks)
+# Peak RSS:    4724.25         MB (min over tasks)
+# Peak RSS:    4756.33         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 5 Total steps taken: 13
+Positions from  z = 2.75            -> 2.52941        
+Velocities from z = 2.87097         -> 2.63636        
+deltatime_pos = 0.190364        deltatime_vel = 0.199582       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000468737
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00115999
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8395297 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.4778 %% (min)
+#               81.5021 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4136.39         MB (min over tasks)
+# Current RSS: 4160.05         MB (max over tasks)
+# Peak RSS:    4724.82         MB (min over tasks)
+# Peak RSS:    4780.38         MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 5 Total steps taken: 14
+Positions from  z = 2.52941         -> 2.33333        
+Velocities from z = 2.63636         -> 2.42857        
+deltatime_pos = 0.173667        deltatime_vel = 0.181633       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000510102
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00121073
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8393275 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.374 %% (min)
+#               81.5885 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.74         MB (min over tasks)
+# Current RSS: 4160.08         MB (max over tasks)
+# Peak RSS:    4725.74         MB (min over tasks)
+# Peak RSS:    4803.72         MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 5 Total steps taken: 15
+Positions from  z = 2.33333         -> 2.15789        
+Velocities from z = 2.42857         -> 2.24324        
+deltatime_pos = 0.159152        deltatime_vel = 0.166096       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000620403
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00135211
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8389585 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.2829 %% (min)
+#               81.6757 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4136.41         MB (min over tasks)
+# Current RSS: 4160.14         MB (max over tasks)
+# Peak RSS:    4725.74         MB (min over tasks)
+# Peak RSS:    4826.59         MB (max over tasks)
+#=====================================================
+
+Taking substep: 4 / 5 Total steps taken: 16
+Positions from  z = 2.15789         -> 2              
+Velocities from z = 2.24324         -> 2.07692        
+deltatime_pos = 0.146432        deltatime_vel = 0.152532       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000615476
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.0013429
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8385928 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.1874 %% (min)
+#               81.762 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4136.34         MB (min over tasks)
+# Current RSS: 4160.18         MB (max over tasks)
+# Peak RSS:    4734.22         MB (min over tasks)
+# Peak RSS:    4849.61         MB (max over tasks)
+#=====================================================
+
+Taking substep: 5 / 5 Total steps taken: 17
+Positions from  z = 2               -> 2              
+Velocities from z = 2.07692         -> 2              
+deltatime_pos = 0               deltatime_vel = 0.0708233      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000134684
+[Kick] + [Drift] Scaledependent COLA 2LPT
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8385928 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.1874 %% (min)
+#               81.762 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4136.37         MB (min over tasks)
+# Current RSS: 4160.2          MB (max over tasks)
+# Peak RSS:    4734.3          MB (min over tasks)
+# Peak RSS:    4872.11         MB (max over tasks)
+#=====================================================
+
+#=====================================================
+# Analyze and output
+#=====================================================
+Doing output 1 at redshift z = 2
+Snapshot will be stored in folder /gpfs/projects/MirandaGroup/jonathan/cola_projects/LCDM/400_1/b/output/77/snapshot_run_77_z2.000
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+#=====================================================
+# Computing power-spectrum of particles
+# pofk_nmesh                     : 1024
+# pofk_density_assignment_method : PCS
+# pofk_interlacing               : true
+# pofk_subtract_shotnoise        : false
+#=====================================================
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+Taking substep: 0 / 8 Total steps taken: 17
+Positions from  z = 2               -> 1.82353        
+Velocities from z = 2               -> 1.90909        
+deltatime_pos = 0.167406        deltatime_vel = 0.0870641      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000203536
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00170296
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8381970 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               78.0703 %% (min)
+#               81.868 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4144.69         MB (min over tasks)
+# Current RSS: 4160.21         MB (max over tasks)
+# Peak RSS:    4734.35         MB (min over tasks)
+# Peak RSS:    4872.12         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 8 Total steps taken: 18
+Positions from  z = 1.82353         -> 1.66667        
+Velocities from z = 1.90909         -> 1.74286        
+deltatime_pos = 0.152252        deltatime_vel = 0.159485       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000809037
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00155993
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8377526 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               77.9444 %% (min)
+#               81.9857 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4135.65         MB (min over tasks)
+# Current RSS: 4165.84         MB (max over tasks)
+# Peak RSS:    4745.89         MB (min over tasks)
+# Peak RSS:    4899.79         MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 8 Total steps taken: 19
+Positions from  z = 1.66667         -> 1.52632        
+Velocities from z = 1.74286         -> 1.59459        
+deltatime_pos = 0.139055        deltatime_vel = 0.145371       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000706049
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00168673
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8371414 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               77.8212 %% (min)
+#               82.1257 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4136.37         MB (min over tasks)
+# Current RSS: 4165.92         MB (max over tasks)
+# Peak RSS:    4749.03         MB (min over tasks)
+# Peak RSS:    4929.96         MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 8 Total steps taken: 20
+Positions from  z = 1.52632         -> 1.4            
+Velocities from z = 1.59459         -> 1.46154        
+deltatime_pos = 0.127471        deltatime_vel = 0.133029       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.00074467
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00167793
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8366408 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               77.6883 %% (min)
+#               82.2576 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4149.19         MB (min over tasks)
+# Current RSS: 4165.92         MB (max over tasks)
+# Peak RSS:    4770.48         MB (min over tasks)
+# Peak RSS:    4956.14         MB (max over tasks)
+#=====================================================
+
+Taking substep: 4 / 8 Total steps taken: 21
+Positions from  z = 1.4             -> 1.28571        
+Velocities from z = 1.46154         -> 1.34146        
+deltatime_pos = 0.117232        deltatime_vel = 0.122155       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.00069104
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00158094
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8361030 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               77.5404 %% (min)
+#               82.3715 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4159.21         MB (min over tasks)
+# Current RSS: 4165.94         MB (max over tasks)
+# Peak RSS:    4813.89         MB (min over tasks)
+# Peak RSS:    4983.26         MB (max over tasks)
+#=====================================================
+
+Taking substep: 5 / 8 Total steps taken: 22
+Positions from  z = 1.28571         -> 1.18182        
+Velocities from z = 1.34146         -> 1.23256        
+deltatime_pos = 0.108123        deltatime_vel = 0.112511       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000697237
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00166242
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8355667 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               77.3861 %% (min)
+#               82.4733 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4159.22         MB (min over tasks)
+# Current RSS: 4165.94         MB (max over tasks)
+# Peak RSS:    4834.73         MB (min over tasks)
+# Peak RSS:    5008.04         MB (max over tasks)
+#=====================================================
+
+Taking substep: 6 / 8 Total steps taken: 23
+Positions from  z = 1.18182         -> 1.08696        
+Velocities from z = 1.23256         -> 1.13333        
+deltatime_pos = 0.0999757       deltatime_vel = 0.103908       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000692601
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00159676
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8350271 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               77.2386 %% (min)
+#               82.584 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4159.22         MB (min over tasks)
+# Current RSS: 4165.94         MB (max over tasks)
+# Peak RSS:    4854.65         MB (min over tasks)
+# Peak RSS:    5031.67         MB (max over tasks)
+#=====================================================
+
+Taking substep: 7 / 8 Total steps taken: 24
+Positions from  z = 1.08696         -> 1              
+Velocities from z = 1.13333         -> 1.04255        
+deltatime_pos = 0.0926509       deltatime_vel = 0.0961915      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000630659
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00160565
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8347499 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               77.0855 %% (min)
+#               82.6817 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4159.22         MB (min over tasks)
+# Current RSS: 4165.94         MB (max over tasks)
+# Peak RSS:    4874.04         MB (min over tasks)
+# Peak RSS:    5054.21         MB (max over tasks)
+#=====================================================
+
+Taking substep: 8 / 8 Total steps taken: 25
+Positions from  z = 1               -> 1              
+Velocities from z = 1.04255         -> 1              
+deltatime_pos = 0               deltatime_vel = 0.0449802      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000167822
+[Kick] + [Drift] Scaledependent COLA 2LPT
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8347499 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               77.0855 %% (min)
+#               82.6817 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4159.23         MB (min over tasks)
+# Current RSS: 4165.94         MB (max over tasks)
+# Peak RSS:    4892.9          MB (min over tasks)
+# Peak RSS:    5076.33         MB (max over tasks)
+#=====================================================
+
+#=====================================================
+# Analyze and output
+#=====================================================
+Doing output 2 at redshift z = 1
+Snapshot will be stored in folder /gpfs/projects/MirandaGroup/jonathan/cola_projects/LCDM/400_1/b/output/77/snapshot_run_77_z1.000
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+#=====================================================
+# Computing power-spectrum of particles
+# pofk_nmesh                     : 1024
+# pofk_density_assignment_method : PCS
+# pofk_interlacing               : true
+# pofk_subtract_shotnoise        : false
+#=====================================================
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+Taking substep: 0 / 9 Total steps taken: 25
+Positions from  z = 1               -> 0.928571       
+Velocities from z = 1               -> 0.963636       
+deltatime_pos = 0.0767834       deltatime_vel = 0.0393756      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000128606
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00154472
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8345474 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               76.9472 %% (min)
+#               82.784 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4159.24         MB (min over tasks)
+# Current RSS: 4165.94         MB (max over tasks)
+# Peak RSS:    4893.07         MB (min over tasks)
+# Peak RSS:    5076.36         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 9 Total steps taken: 26
+Positions from  z = 0.928571        -> 0.862069       
+Velocities from z = 0.963636        -> 0.894737       
+deltatime_pos = 0.071995        deltatime_vel = 0.0743236      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.00058345
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00142855
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8343961 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               76.7914 %% (min)
+#               82.8925 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4159.24         MB (min over tasks)
+# Current RSS: 4165.94         MB (max over tasks)
+# Peak RSS:    4909.36         MB (min over tasks)
+# Peak RSS:    5095.44         MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 9 Total steps taken: 27
+Positions from  z = 0.862069        -> 0.8            
+Velocities from z = 0.894737        -> 0.830508       
+deltatime_pos = 0.0675941       deltatime_vel = 0.0697362      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.00052247
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00146541
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 1090.52 MB (mean)
+#                   1090.52 MB (min)
+#                   1090.52 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 8340053 parts. Capacity: 10485760
+# The buffer is 80 %% (mean)
+#               76.6426 %% (min)
+#               82.983 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 4159.25         MB (min over tasks)
+# Current RSS: 4165.94         MB (max over tasks)
+# Peak RSS:    4925.31         MB (min over tasks)
+# Peak RSS:    5113.83         MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 9 Total steps taken: 28
+Positions from  z = 0.8             -> 0.741935       
+Velocities from z = 0.830508        -> 0.770492       
+deltatime_pos = 0.063539        deltatime_vel = 0.0655144      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000504266
+[Kick] + [Drift] Scaledependent COLA 2LPT
