@@ -1,0 +1,3713 @@
+Running on host node016
+Time is qua jun 7 15:16:04 -03 2023
+Directory is /home/joaoreboucas/FML
+Slurm job NAME is cola_wcdm
+Slurm job ID is 3319229
+Number of tasks is 256
+Number of cpus per task is 1
+sending incremental file list
+README.md
+cola_3318476_200.err
+cola_3318476_200.out
+cola_3318539_201.err
+cola_3318539_201.out
+cola_3318539_202.err
+cola_3318539_202.out
+cola_3318539_203.err
+cola_3318539_203.out
+cola_3318539_204.err
+cola_3318539_204.out
+cola_3318539_205.err
+cola_3318539_205.out
+cola_3318539_206.err
+cola_3318539_206.out
+cola_3318539_207.err
+cola_3318539_207.out
+cola_3318539_208.err
+cola_3318539_208.out
+cola_3318539_209.err
+cola_3318539_209.out
+cola_3318539_210.err
+cola_3318539_210.out
+cola_3318539_211.err
+cola_3318539_211.out
+cola_3318539_212.err
+cola_3318539_212.out
+cola_3318539_213.err
+cola_3318539_213.out
+cola_3318539_214.err
+cola_3318539_214.out
+cola_3318539_215.err
+cola_3318539_215.out
+cola_3318539_216.err
+cola_3318539_216.out
+cola_3318539_217.err
+cola_3318539_217.out
+cola_3318539_218.err
+cola_3318539_218.out
+cola_3318539_219.err
+cola_3318539_219.out
+cola_3318539_220.err
+cola_3318539_220.out
+cola_3318539_221.err
+cola_3318539_221.out
+cola_3318539_222.err
+cola_3318539_222.out
+cola_3318539_223.err
+cola_3318539_223.out
+cola_3318539_224.err
+cola_3318539_224.out
+cola_3318539_225.err
+cola_3318539_225.out
+cola_3318539_226.err
+cola_3318539_226.out
+cola_3318539_227.err
+cola_3318539_227.out
+cola_3318539_228.err
+cola_3318539_228.out
+cola_3318539_229.err
+cola_3318539_229.out
+cola_3318539_230.err
+cola_3318539_230.out
+cola_3318539_231.err
+cola_3318539_231.out
+cola_3318539_232.err
+cola_3318539_232.out
+cola_3318539_233.err
+cola_3318539_233.out
+cola_3318539_234.err
+cola_3318539_234.out
+cola_3318539_235.err
+cola_3318539_235.out
+cola_3318539_236.err
+cola_3318539_236.out
+cola_3318539_237.err
+cola_3318539_237.out
+cola_3318539_238.err
+cola_3318539_238.out
+cola_3318539_239.err
+cola_3318539_239.out
+cola_3318539_240.err
+cola_3318539_240.out
+cola_3318539_241.err
+cola_3318539_241.out
+cola_3318539_242.err
+cola_3318539_242.out
+cola_3318539_243.err
+cola_3318539_243.out
+cola_3318539_244.err
+cola_3318539_244.out
+cola_3318539_245.err
+cola_3318539_245.out
+cola_3318539_246.err
+cola_3318539_246.out
+cola_3318539_247.err
+cola_3318539_247.out
+cola_3318539_248.err
+cola_3318539_248.out
+cola_3318539_249.err
+cola_3318539_249.out
+cola_3318539_250.err
+cola_3318539_250.out
+cola_3319228_252.err
+cola_3319228_252.out
+compile_cola
+install_cola_local_environment
+set_installation_options
+start_cola
+stop_cola
+FML/
+FML/CAMBUtils/
+FML/CAMBUtils/CAMBReader.h
+FML/CAMBUtils/example/
+FML/CAMBUtils/example/Main.cpp
+FML/CAMBUtils/example/Makefile
+FML/CAMBUtils/example/transfer_infofile.txt
+FML/CAMBUtils/example/camb_transfer_data/
+FML/CAMBUtils/example/camb_transfer_data/camb.log
+FML/CAMBUtils/example/camb_transfer_data/camb_lcdm_nu0.2.ini
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_lensedCls.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_lenspotentialCls.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.000.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.084.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.174.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.272.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.378.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.494.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.618.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.754.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z0.900.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z1.059.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z1.231.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z1.417.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z1.619.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z1.838.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z10.103.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z11.031.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z12.036.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z13.125.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z14.305.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z15.584.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z16.970.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z18.471.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z2.075.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z2.332.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z2.611.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z2.912.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z20.098.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z21.861.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z23.771.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z25.840.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z28.082.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z3.239.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z3.593.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z3.977.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z30.512.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z33.145.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z35.998.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z39.089.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z4.393.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z4.843.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z42.438.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z46.068.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z5.332.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z5.861.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z50.000.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z6.434.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z7.055.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z7.728.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z8.457.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_matterpower_z9.247.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_params.ini
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_scalCls.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_scalCovCls.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.000.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.084.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.174.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.272.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.378.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.494.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.618.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.754.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z0.900.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z1.059.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z1.231.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z1.417.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z1.619.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z1.838.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z10.103.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z11.031.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z12.036.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z13.125.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z14.305.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z15.584.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z16.970.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z18.471.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z2.075.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z2.332.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z2.611.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z2.912.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z20.098.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z21.861.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z23.771.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z25.840.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z28.082.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z3.239.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z3.593.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z3.977.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z30.512.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z33.145.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z35.998.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z39.089.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z4.393.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z4.843.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z42.438.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z46.068.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z5.332.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z5.861.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z50.000.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z6.434.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z7.055.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z7.728.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z8.457.dat
+FML/CAMBUtils/example/camb_transfer_data/lcdm_nu0.2_transfer_z9.247.dat
+FML/CAMBUtils/example/camb_transfer_data/picola_transfer_info_nu0.2.txt
+FML/COLASolver/
+FML/COLASolver/FileUtils.o
+FML/COLASolver/GadgetUtils.o
+FML/COLASolver/Global.o
+FML/COLASolver/Main.o
+FML/COLASolver/Makefile
+FML/COLASolver/ODESolver.o
+FML/COLASolver/ParameterMap.o
+FML/COLASolver/README.md
+FML/COLASolver/Spline.o
+FML/COLASolver/nbody
+FML/COLASolver/parameterfile.lua
+FML/COLASolver/examples/
+FML/COLASolver/examples/example_logfile.txt
+FML/COLASolver/examples/example_run_different_input/
+FML/COLASolver/examples/example_run_different_input/README
+FML/COLASolver/examples/example_run_different_input/param_lcdm_powerspecrum.lua
+FML/COLASolver/examples/example_run_different_input/param_lcdm_transferfunction.lua
+FML/COLASolver/examples/example_run_different_input/param_lcdm_transferinfo.lua
+FML/COLASolver/examples/example_run_different_input/output/
+FML/COLASolver/examples/example_run_different_input/output/cosmology_LCDMpofk.txt
+FML/COLASolver/examples/example_run_different_input/output/cosmology_LCDMtinfo.txt
+FML/COLASolver/examples/example_run_different_input/output/cosmology_LCDMtofk.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMpofk_k0.00001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMpofk_k0.0001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMpofk_k0.001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMpofk_k0.01.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMpofk_k0.1.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMpofk_k1.0.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMpofk_k10.0.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtinfo_k0.00001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtinfo_k0.0001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtinfo_k0.001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtinfo_k0.01.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtinfo_k0.1.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtinfo_k1.0.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtinfo_k10.0.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtofk_k0.00001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtofk_k0.0001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtofk_k0.001.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtofk_k0.01.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtofk_k0.1.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtofk_k1.0.txt
+FML/COLASolver/examples/example_run_different_input/output/gravitymodel_LCDMtofk_k10.0.txt
+FML/COLASolver/examples/example_run_different_input/output/snapshot_LCDMpofk_z0.000/
+FML/COLASolver/examples/example_run_different_input/output/snapshot_LCDMpofk_z0.000/pofk_z0.000.txt
+FML/COLASolver/examples/example_run_different_input/output/snapshot_LCDMtinfo_z0.000/
+FML/COLASolver/examples/example_run_different_input/output/snapshot_LCDMtinfo_z0.000/pofk_z0.000.txt
+FML/COLASolver/examples/example_run_different_input/output/snapshot_LCDMtofk_z0.000/
+FML/COLASolver/examples/example_run_different_input/output/snapshot_LCDMtofk_z0.000/pofk_z0.000.txt
+FML/COLASolver/examples/example_run_with_dgp/
+FML/COLASolver/examples/example_run_with_dgp/README
+FML/COLASolver/examples/example_run_with_dgp/param_dgp.lua
+FML/COLASolver/examples/example_run_with_dgp/param_lcdm.lua
+FML/COLASolver/examples/example_run_with_dgp/output/
+FML/COLASolver/examples/example_run_with_dgp/output/cosmology_DGP.txt
+FML/COLASolver/examples/example_run_with_dgp/output/cosmology_LCDM.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_DGP_k0.00001.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_DGP_k0.0001.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_DGP_k0.001.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_DGP_k0.01.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_DGP_k0.1.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_DGP_k1.0.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_DGP_k10.0.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_LCDM_k0.00001.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_LCDM_k0.0001.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_LCDM_k0.001.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_LCDM_k0.01.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_LCDM_k0.1.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_LCDM_k1.0.txt
+FML/COLASolver/examples/example_run_with_dgp/output/gravitymodel_LCDM_k10.0.txt
+FML/COLASolver/examples/example_run_with_dgp/output/snapshot_DGP_z0.000/
+FML/COLASolver/examples/example_run_with_dgp/output/snapshot_DGP_z0.000/pofk_z0.000.txt
+FML/COLASolver/examples/example_run_with_dgp/output/snapshot_LCDM_z0.000/
+FML/COLASolver/examples/example_run_with_dgp/output/snapshot_LCDM_z0.000/pofk_z0.000.txt
+FML/COLASolver/examples/example_run_with_fofr/
+FML/COLASolver/examples/example_run_with_fofr/README
+FML/COLASolver/examples/example_run_with_fofr/param_fofr.lua
+FML/COLASolver/examples/example_run_with_fofr/param_lcdm.lua
+FML/COLASolver/examples/example_run_with_fofr/output/
+FML/COLASolver/examples/example_run_with_fofr/output/cosmology_FOFR.txt
+FML/COLASolver/examples/example_run_with_fofr/output/cosmology_LCDM.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_FOFR_k0.00001.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_FOFR_k0.0001.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_FOFR_k0.001.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_FOFR_k0.01.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_FOFR_k0.1.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_FOFR_k1.0.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_FOFR_k10.0.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_LCDM_k0.00001.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_LCDM_k0.0001.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_LCDM_k0.001.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_LCDM_k0.01.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_LCDM_k0.1.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_LCDM_k1.0.txt
+FML/COLASolver/examples/example_run_with_fofr/output/gravitymodel_LCDM_k10.0.txt
+FML/COLASolver/examples/example_run_with_fofr/output/snapshot_FOFR_z0.000/
+FML/COLASolver/examples/example_run_with_fofr/output/snapshot_FOFR_z0.000/pofk_z0.000.txt
+FML/COLASolver/examples/example_run_with_fofr/output/snapshot_LCDM_z0.000/
+FML/COLASolver/examples/example_run_with_fofr/output/snapshot_LCDM_z0.000/pofk_z0.000.txt
+FML/COLASolver/examples/example_run_with_neutrinos/
+FML/COLASolver/examples/example_run_with_neutrinos/README
+FML/COLASolver/examples/example_run_with_neutrinos/param_lcdm_nu0.0.lua
+FML/COLASolver/examples/example_run_with_neutrinos/param_lcdm_nu0.2.lua
+FML/COLASolver/examples/example_run_with_neutrinos/output/
+FML/COLASolver/examples/example_run_with_neutrinos/output/cosmology_LCDM_nu0.0.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/cosmology_LCDM_nu0.2.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.0_k0.00001.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.0_k0.0001.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.0_k0.001.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.0_k0.01.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.0_k0.1.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.0_k1.0.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.0_k10.0.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.2_k0.00001.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.2_k0.0001.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.2_k0.001.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.2_k0.01.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.2_k0.1.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.2_k1.0.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/gravitymodel_LCDM_nu0.2_k10.0.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/snapshot_LCDM_nu0.0_z0.000/
+FML/COLASolver/examples/example_run_with_neutrinos/output/snapshot_LCDM_nu0.0_z0.000/pofk_z0.000.txt
+FML/COLASolver/examples/example_run_with_neutrinos/output/snapshot_LCDM_nu0.2_z0.000/
+FML/COLASolver/examples/example_run_with_neutrinos/output/snapshot_LCDM_nu0.2_z0.000/pofk_z0.000.txt
+FML/COLASolver/input/
+FML/COLASolver/input/example_power_spectrum_cb_z0.000.txt
+FML/COLASolver/input/example_transfer_function_cb_z0.000.txt
+FML/COLASolver/input/transfer_infofile_lcdm_nu0.0.txt
+FML/COLASolver/input/transfer_infofile_lcdm_nu0.2.txt
+FML/COLASolver/input/transfer_infofile_lcdm_nu0.4.txt
+FML/COLASolver/input/camb_data_lcdm_nu0.0/
+FML/COLASolver/input/camb_data_lcdm_nu0.0/camb.log
+FML/COLASolver/input/camb_data_lcdm_nu0.0/camb_lcdm_nu0.0.ini
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_lensedCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_lenspotentialCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.084.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.174.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.272.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.378.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.494.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.618.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.754.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z0.900.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z1.059.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z1.231.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z1.417.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z1.619.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z1.838.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z10.103.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z11.031.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z12.036.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z13.125.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z14.305.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z15.584.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z16.970.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z18.471.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z2.075.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z2.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z2.611.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z2.912.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z20.098.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z21.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z23.771.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z25.840.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z28.082.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z3.239.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z3.593.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z3.977.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z30.512.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z33.145.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z35.998.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z39.089.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z4.393.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z4.843.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z42.438.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z46.068.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z5.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z5.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z50.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z6.434.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z7.055.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z7.728.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z8.457.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_matterpower_z9.247.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_params.ini
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_scalCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_scalCovCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.084.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.174.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.272.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.378.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.494.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.618.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.754.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z0.900.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z1.059.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z1.231.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z1.417.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z1.619.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z1.838.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z10.103.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z11.031.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z12.036.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z13.125.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z14.305.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z15.584.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z16.970.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z18.471.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z2.075.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z2.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z2.611.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z2.912.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z20.098.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z21.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z23.771.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z25.840.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z28.082.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z3.239.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z3.593.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z3.977.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z30.512.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z33.145.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z35.998.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z39.089.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z4.393.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z4.843.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z42.438.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z46.068.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z5.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z5.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z50.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z6.434.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z7.055.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z7.728.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z8.457.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.0/lcdm_nu0.0_transfer_z9.247.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/
+FML/COLASolver/input/camb_data_lcdm_nu0.2/camb.log
+FML/COLASolver/input/camb_data_lcdm_nu0.2/camb_lcdm_nu0.2.ini
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_lensedCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_lenspotentialCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.084.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.174.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.272.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.378.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.494.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.618.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.754.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z0.900.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z1.059.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z1.231.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z1.417.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z1.619.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z1.838.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z10.103.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z11.031.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z12.036.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z13.125.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z14.305.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z15.584.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z16.970.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z18.471.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z2.075.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z2.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z2.611.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z2.912.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z20.098.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z21.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z23.771.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z25.840.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z28.082.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z3.239.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z3.593.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z3.977.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z30.512.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z33.145.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z35.998.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z39.089.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z4.393.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z4.843.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z42.438.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z46.068.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z5.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z5.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z50.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z6.434.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z7.055.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z7.728.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z8.457.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_matterpower_z9.247.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_params.ini
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_scalCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_scalCovCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.084.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.174.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.272.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.378.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.494.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.618.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.754.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z0.900.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z1.059.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z1.231.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z1.417.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z1.619.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z1.838.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z10.103.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z11.031.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z12.036.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z13.125.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z14.305.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z15.584.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z16.970.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z18.471.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z2.075.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z2.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z2.611.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z2.912.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z20.098.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z21.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z23.771.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z25.840.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z28.082.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z3.239.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z3.593.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z3.977.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z30.512.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z33.145.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z35.998.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z39.089.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z4.393.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z4.843.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z42.438.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z46.068.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z5.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z5.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z50.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z6.434.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z7.055.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z7.728.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z8.457.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/lcdm_nu0.2_transfer_z9.247.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.2/picola_transfer_info_nu0.2.txt
+FML/COLASolver/input/camb_data_lcdm_nu0.4/
+FML/COLASolver/input/camb_data_lcdm_nu0.4/camb.log
+FML/COLASolver/input/camb_data_lcdm_nu0.4/camb_lcdm_nu0.4.ini
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_lensedCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_lenspotentialCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.084.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.174.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.272.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.378.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.494.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.618.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.754.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z0.900.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z1.059.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z1.231.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z1.417.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z1.619.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z1.838.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z10.103.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z11.031.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z12.036.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z13.125.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z14.305.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z15.584.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z16.970.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z18.471.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z2.075.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z2.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z2.611.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z2.912.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z20.098.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z21.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z23.771.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z25.840.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z28.082.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z3.239.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z3.593.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z3.977.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z30.512.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z33.145.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z35.998.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z39.089.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z4.393.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z4.843.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z42.438.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z46.068.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z5.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z5.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z50.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z6.434.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z7.055.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z7.728.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z8.457.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_matterpower_z9.247.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_params.ini
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_scalCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_scalCovCls.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.084.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.174.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.272.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.378.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.494.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.618.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.754.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z0.900.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z1.059.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z1.231.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z1.417.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z1.619.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z1.838.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z10.103.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z11.031.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z12.036.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z13.125.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z14.305.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z15.584.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z16.970.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z18.471.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z2.075.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z2.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z2.611.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z2.912.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z20.098.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z21.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z23.771.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z25.840.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z28.082.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z3.239.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z3.593.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z3.977.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z30.512.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z33.145.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z35.998.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z39.089.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z4.393.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z4.843.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z42.438.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z46.068.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z5.332.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z5.861.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z50.000.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z6.434.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z7.055.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z7.728.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z8.457.dat
+FML/COLASolver/input/camb_data_lcdm_nu0.4/lcdm_nu0.4_transfer_z9.247.dat
+FML/COLASolver/src/
+FML/COLASolver/src/AnalyzeOutput.h
+FML/COLASolver/src/COLA.h
+FML/COLASolver/src/Cosmology.h
+FML/COLASolver/src/Cosmology_DGP.h
+FML/COLASolver/src/Cosmology_JBD.h
+FML/COLASolver/src/Cosmology_LCDM.h
+FML/COLASolver/src/Cosmology_w0wa.h
+FML/COLASolver/src/ExampleParticles.h
+FML/COLASolver/src/GravityModel.h
+FML/COLASolver/src/GravityModel_DGP.h
+FML/COLASolver/src/GravityModel_GR.h
+FML/COLASolver/src/GravityModel_JBD.h
+FML/COLASolver/src/GravityModel_fofr.h
+FML/COLASolver/src/GravityModel_symmetron.h
+FML/COLASolver/src/Main.cpp
+FML/COLASolver/src/ReadParameters.h
+FML/COLASolver/src/Simulation.h
+FML/COLASolver/tests/
+FML/COLASolver/tests/README.md
+FML/COLASolver/tests/LCDM_COLA_NormalIC_TimesteppingQuinn/
+FML/COLASolver/tests/LCDM_COLA_NormalIC_TimesteppingQuinn/README
+FML/COLASolver/tests/LCDM_COLA_NormalIC_TimesteppingQuinn/input_power_spectrum.dat
+FML/COLASolver/tests/LCDM_COLA_NormalIC_TimesteppingQuinn/mgpicola_parameterfile.txt
+FML/COLASolver/tests/LCDM_COLA_NormalIC_TimesteppingQuinn/mgpicola_pofk_z0.000.txt
+FML/COLASolver/tests/LCDM_COLA_NormalIC_TimesteppingQuinn/parameterfile.lua
+FML/COLASolver/tests/LCDM_COLA_NormalIC_TimesteppingQuinn/pofk_TestSim_cb_z0.000.txt
+FML/COLASolver/tests/LCDM_noCOLA_NormalIC_TimesteppingQuinn/
+FML/COLASolver/tests/LCDM_noCOLA_NormalIC_TimesteppingQuinn/README
+FML/COLASolver/tests/LCDM_noCOLA_NormalIC_TimesteppingQuinn/input_power_spectrum.dat
+FML/COLASolver/tests/LCDM_noCOLA_NormalIC_TimesteppingQuinn/mgpicola_parameterfile.txt
+FML/COLASolver/tests/LCDM_noCOLA_NormalIC_TimesteppingQuinn/mgpicola_pofk_z0.000.txt
+FML/COLASolver/tests/LCDM_noCOLA_NormalIC_TimesteppingQuinn/parameterfile.lua
+FML/COLASolver/tests/LCDM_noCOLA_NormalIC_TimesteppingQuinn/pofk_TestSim_cb_z0.000.txt
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingQuinn/
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingQuinn/README
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingQuinn/input_power_spectrum.dat
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingQuinn/mgpicola_parameterfile.txt
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingQuinn/mgpicola_pofk_z0.000.txt
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingQuinn/parameterfile.lua
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingQuinn/pofk_TestSim_cb_z0.000.txt
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingTassev/
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingTassev/README
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingTassev/input_power_spectrum.dat
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingTassev/mgpicola_parameterfile.txt
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingTassev/mgpicola_pofk_z0.000.txt
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingTassev/parameterfile.lua
+FML/COLASolver/tests/LCDM_noCOLA_fixedAmplitudeIC_TimesteppingTassev/pofk_TestSim_cb_z0.000.txt
+FML/ComputePowerSpectra/
+FML/ComputePowerSpectra/ComputePowerSpectrum.h
+FML/ComputePowerSpectra/PolyspectrumBinning.h
+FML/ComputePowerSpectra/PowerSpectrumBinning.h
+FML/ComputePowerSpectra/example/
+FML/ComputePowerSpectra/example/Main.cpp
+FML/ComputePowerSpectra/example/Makefile
+FML/Cosmology/
+FML/Cosmology/BackgroundCosmology/
+FML/Cosmology/BackgroundCosmology/BackgroundCosmology.cpp
+FML/Cosmology/BackgroundCosmology/BackgroundCosmology.h
+FML/Cosmology/BackgroundCosmology/example/
+FML/Cosmology/BackgroundCosmology/example/Main.cpp
+FML/Cosmology/BackgroundCosmology/example/Makefile
+FML/Cosmology/EinsteinBoltzmannSolver/
+FML/Cosmology/EinsteinBoltzmannSolver/Main.cpp
+FML/Cosmology/EinsteinBoltzmannSolver/Makefile
+FML/Cosmology/EinsteinBoltzmannSolver/README
+FML/Cosmology/EinsteinBoltzmannSolver/output/
+FML/Cosmology/EinsteinBoltzmannSolver/output/background.txt
+FML/Cosmology/EinsteinBoltzmannSolver/output/cell.txt
+FML/Cosmology/EinsteinBoltzmannSolver/output/corr.txt
+FML/Cosmology/EinsteinBoltzmannSolver/output/perturbations.txt
+FML/Cosmology/EinsteinBoltzmannSolver/output/pofk.txt
+FML/Cosmology/EinsteinBoltzmannSolver/output/recombination.txt
+FML/Cosmology/EinsteinBoltzmannSolver/output/transfer.txt
+FML/Cosmology/LinearPerturbations/
+FML/Cosmology/LinearPerturbations/Perturbations.cpp
+FML/Cosmology/LinearPerturbations/Perturbations.h
+FML/Cosmology/LinearPerturbations/example/
+FML/Cosmology/LinearPerturbations/example/Main.cpp
+FML/Cosmology/LinearPerturbations/example/Makefile
+FML/Cosmology/LinearPowerSpectra/
+FML/Cosmology/LinearPowerSpectra/PowerSpectrum.cpp
+FML/Cosmology/LinearPowerSpectra/PowerSpectrum.h
+FML/Cosmology/RecombinationHistory/
+FML/Cosmology/RecombinationHistory/RecombinationHistory.cpp
+FML/Cosmology/RecombinationHistory/RecombinationHistory.h
+FML/Cosmology/RecombinationHistory/example/
+FML/Cosmology/RecombinationHistory/example/Main.cpp
+FML/Cosmology/RecombinationHistory/example/Makefile
+FML/FFTLog/
+FML/FFTLog/FFTLog.cpp
+FML/FFTLog/FFTLog.h
+FML/FFTLog/example/
+FML/FFTLog/example/Main.cpp
+FML/FFTLog/example/Makefile
+FML/FFTWGrid/
+FML/FFTWGrid/FFTWGlobal.h
+FML/FFTWGrid/FFTWGrid.h
+FML/FFTWGrid/example/
+FML/FFTWGrid/example/Main.cpp
+FML/FFTWGrid/example/Makefile
+FML/FFTWGrid/example/Test.cpp
+FML/FileUtils/
+FML/FileUtils/FileUtils.cpp
+FML/FileUtils/FileUtils.h
+FML/FileUtils/example/
+FML/FileUtils/example/Main.cpp
+FML/FileUtils/example/Makefile
+FML/FileUtils/example/jalla.txt
+FML/FriendsOfFriends/
+FML/FriendsOfFriends/FoF.h
+FML/FriendsOfFriends/FoFBinning.h
+FML/FriendsOfFriends/example/
+FML/FriendsOfFriends/example/Main.cpp
+FML/FriendsOfFriends/example/Makefile
+FML/FriendsOfFriends/example/matchmaker_fof_L0.3_n20.txt
+FML/GadgetUtils/
+FML/GadgetUtils/GadgetUtils.cpp
+FML/GadgetUtils/GadgetUtils.h
+FML/GadgetUtils/example/
+FML/GadgetUtils/example/Main.cpp
+FML/GadgetUtils/example/Makefile
+FML/GadgetUtils/example/Test.cpp
+FML/Global/
+FML/Global/Global.cpp
+FML/Global/Global.h
+FML/Global/SystemMemory.h
+FML/Global/example/
+FML/Global/example/Main.cpp
+FML/Global/example/Makefile
+FML/Interpolation/
+FML/Interpolation/ParticleGridInterpolation.h
+FML/Interpolation/example/
+FML/Interpolation/example/Main.cpp
+FML/Interpolation/example/Makefile
+FML/LPT/
+FML/LPT/DisplacementFields.h
+FML/LPT/Reconstruction.h
+FML/LPT/example/
+FML/LPT/example/Main.cpp
+FML/LPT/example/Makefile
+FML/LuaFileParser/
+FML/LuaFileParser/LuaFileParser.h
+FML/LuaFileParser/example/
+FML/LuaFileParser/example/Main.cpp
+FML/LuaFileParser/example/Makefile
+FML/LuaFileParser/example/input.lua
+FML/MPIGrid/
+FML/MPIGrid/ConvertMPIGridFFTWGrid.h
+FML/MPIGrid/MPIGrid.h
+FML/MPIGrid/MPIMultiGrid.h
+FML/MPIGrid/example/
+FML/MPIGrid/example/Main.cpp
+FML/MPIGrid/example/Makefile
+FML/MPIParticles/
+FML/MPIParticles/MPIParticles.h
+FML/MPIParticles/example/
+FML/MPIParticles/example/Main.cpp
+FML/MPIParticles/example/Makefile
+FML/MakePythonWrapper/
+FML/MakePythonWrapper/InterfaceFile.i
+FML/MakePythonWrapper/Main.cpp
+FML/MakePythonWrapper/Makefile
+FML/MakePythonWrapper/numpy.i
+FML/MakePythonWrapper/test.py
+FML/Math/
+FML/Math/Math.cpp
+FML/Math/Math.h
+FML/Math/example/
+FML/Math/example/Main.cpp
+FML/Math/example/Makefile
+FML/MemoryLogging/
+FML/MemoryLogging/MemoryLogging.h
+FML/MemoryLogging/example/
+FML/MemoryLogging/example/Main.cpp
+FML/MemoryLogging/example/Makefile
+FML/MultigridSolver/
+FML/MultigridSolver/DGPSolver.h
+FML/MultigridSolver/FofrSolver.h
+FML/MultigridSolver/MultiGridSolver.h
+FML/MultigridSolver/SymmetronSolver.h
+FML/MultigridSolver/examples/
+FML/MultigridSolver/examples/ContinuityExample.cpp
+FML/MultigridSolver/examples/FofrExample.cpp
+FML/MultigridSolver/examples/GenericExample.cpp
+FML/MultigridSolver/examples/Makefile
+FML/MultigridSolver/examples/PoissonExample.cpp
+FML/MultigridSolver/examples/Reconstruction.cpp
+FML/MultigridSolver/examples/SymmetronExample.cpp
+FML/MultigridSolver/examples/dgpExample.cpp
+FML/NBody/
+FML/NBody/NBody.h
+FML/NBody/example/
+FML/NBody/example/Main.cpp
+FML/NBody/example/Makefile
+FML/NBody/example/pofk.txt
+FML/ODESolver/
+FML/ODESolver/ODESolver.cpp
+FML/ODESolver/ODESolver.h
+FML/ODESolver/example/
+FML/ODESolver/example/Main.cpp
+FML/ODESolver/example/Makefile
+FML/PairCounting/
+FML/PairCounting/PairCount.h
+FML/PairCounting/example/
+FML/PairCounting/example/Main.cpp
+FML/PairCounting/example/Makefile
+FML/PairCounting/example/corr_CUTE.dat
+FML/ParameterMap/
+FML/ParameterMap/ParameterMap.cpp
+FML/ParameterMap/ParameterMap.h
+FML/ParameterMap/example/
+FML/ParameterMap/example/Main.cpp
+FML/ParameterMap/example/Makefile
+FML/ParticleTypes/
+FML/ParticleTypes/ReflectOnParticleMethods.h
+FML/ParticleTypes/SimpleGalaxy.h
+FML/ParticleTypes/SimpleParticle.h
+FML/ParticleTypes/example/
+FML/ParticleTypes/example/Main.cpp
+FML/ParticleTypes/example/Makefile
+FML/ParticlesInBoxes/
+FML/ParticlesInBoxes/ParticlesInBoxes.h
+FML/Plotting/
+FML/Plotting/.DS_Store
+FML/Plotting/LICENSE
+FML/Plotting/LICENSE.matplotlib
+FML/Plotting/Matplotlibcpp.h
+FML/Plotting/example/
+FML/Plotting/example/Main.cpp
+FML/Plotting/example/Makefile
+FML/Plotting/example/plot.png
+FML/RamsesUtils/
+FML/RamsesUtils/RamsesUtils.h
+FML/RamsesUtils/example/
+FML/RamsesUtils/example/Main.cpp
+FML/RamsesUtils/example/Makefile
+FML/RandomFields/
+FML/RandomFields/GaussianRandomField.h
+FML/RandomFields/NonLocalGaussianRandomField.h
+FML/RandomFields/example/
+FML/RandomFields/example/Main.cpp
+FML/RandomFields/example/Makefile
+FML/RandomGenerator/
+FML/RandomGenerator/RandomGenerator.h
+FML/RandomGenerator/example/
+FML/RandomGenerator/example/Main.cpp
+FML/RandomGenerator/example/Makefile
+FML/Smoothing/
+FML/Smoothing/SmoothingFourier.h
+FML/Smoothing/example/
+FML/Smoothing/example/Main.cpp
+FML/Smoothing/example/Makefile
+FML/Spline/
+FML/Spline/Spline.cpp
+FML/Spline/Spline.h
+FML/Spline/example/
+FML/Spline/example/Main.cpp
+FML/Spline/example/Makefile
+FML/Survey/
+FML/Survey/GalaxiesToBox.h
+FML/Survey/example/
+FML/Survey/example/Main.cpp
+FML/Survey/example/Makefile
+FML/TidalTensor/
+FML/TidalTensor/Hessian.h
+FML/TidalTensor/example/
+FML/TidalTensor/example/Main.cpp
+FML/TidalTensor/example/Makefile
+FML/Timing/
+FML/Timing/Timings.h
+FML/Timing/example/
+FML/Timing/example/Main.cpp
+FML/Timing/example/Makefile
+FML/Triangulation/
+FML/Triangulation/PeriodicDelaunay.h
+FML/Triangulation/WatershedBinning.h
+FML/Triangulation/example/
+FML/Triangulation/example/Main.cpp
+FML/Triangulation/example/Makefile
+FML/Triangulation/example/zobov-Voids_baryC_cat.txt
+FML/Units/
+FML/Units/Units.h
+FML/Units/example/
+FML/Units/example/Main.cpp
+FML/Units/example/Makefile
+TestData/
+TestData/Galaxies.txt
+TestData/README
+TestData/Randoms.txt
+TestData/gadget.0
+TestData/particles_B1024.txt
+TestData/voids_B1024.txt
+TestData/output_00008/
+TestData/output_00008/info_00008.txt
+TestData/output_00008/part_00008.out00001
+TestData/output_00008/part_00008.out00002
+TestData/output_00008/part_00008.out00003
+TestData/output_00008/part_00008.out00004
+TestData/output_00008/part_00008.out00005
+TestData/output_00008/part_00008.out00006
+TestData/output_00008/part_00008.out00007
+TestData/output_00008/part_00008.out00008
+TestData/output_00008/part_file_descriptor.txt
+clang/
+clang/.clang-format
+doxygen/
+doxygen/doxyfile
+doxygen/run_doxygen.sh
+
+sent 312,318,446 bytes  received 17,456 bytes  23,135,992.74 bytes/sec
+total size is 312,183,362  speedup is 1.00
+
+#=====================================================
+#           ________________  .____         
+#           \_   _____/     \ |    |      
+#            |    __)/  \ /  \|    |      
+#            |     \/    Y    \    |___   
+#            \___  /\____|__  /_______ \ 
+#                \/         \/        \/ 
+#
+# Initializing FML, MPI and FFTW
+# MPI is enabled. Running with 256 MPI tasks
+# OpenMP is enabled. Main task has 1 threads availiable
+# MPI + Threads is working
+# FFTW is enabled. Thread support is enabled
+#
+# List of tasks:
+# Task    0 [node016]
+#     x-domain [       0 , 0.00390625)
+# Task    1 [node017]
+#     x-domain [0.00390625 , 0.0078125)
+# Task    2 [node018]
+#     x-domain [0.0078125 , 0.0117188)
+# Task    3 [node019]
+#     x-domain [0.0117188 , 0.015625)
+# Task    4 [node020]
+#     x-domain [0.015625 , 0.0195312)
+# Task    5 [node021]
+#     x-domain [0.0195312 , 0.0234375)
+# Task    6 [node022]
+#     x-domain [0.0234375 , 0.0273438)
+# Task    7 [node023]
+#     x-domain [0.0273438 ,  0.03125)
+# Task    8 [node016]
+#     x-domain [ 0.03125 , 0.0351562)
+# Task    9 [node017]
+#     x-domain [0.0351562 , 0.0390625)
+# Task   10 [node018]
+#     x-domain [0.0390625 , 0.0429688)
+# Task   11 [node019]
+#     x-domain [0.0429688 , 0.046875)
+# Task   12 [node020]
+#     x-domain [0.046875 , 0.0507812)
+# Task   13 [node021]
+#     x-domain [0.0507812 , 0.0546875)
+# Task   14 [node022]
+#     x-domain [0.0546875 , 0.0585938)
+# Task   15 [node023]
+#     x-domain [0.0585938 ,   0.0625)
+# Task   16 [node016]
+#     x-domain [  0.0625 , 0.0664062)
+# Task   17 [node017]
+#     x-domain [0.0664062 , 0.0703125)
+# Task   18 [node018]
+#     x-domain [0.0703125 , 0.0742188)
+# Task   19 [node019]
+#     x-domain [0.0742188 , 0.078125)
+# Task   20 [node020]
+#     x-domain [0.078125 , 0.0820312)
+# Task   21 [node021]
+#     x-domain [0.0820312 , 0.0859375)
+# Task   22 [node022]
+#     x-domain [0.0859375 , 0.0898438)
+# Task   23 [node023]
+#     x-domain [0.0898438 ,  0.09375)
+# Task   24 [node016]
+#     x-domain [ 0.09375 , 0.0976562)
+# Task   25 [node017]
+#     x-domain [0.0976562 , 0.101562)
+# Task   26 [node018]
+#     x-domain [0.101562 , 0.105469)
+# Task   27 [node019]
+#     x-domain [0.105469 , 0.109375)
+# Task   28 [node020]
+#     x-domain [0.109375 , 0.113281)
+# Task   29 [node021]
+#     x-domain [0.113281 , 0.117188)
+# Task   30 [node022]
+#     x-domain [0.117188 , 0.121094)
+# Task   31 [node023]
+#     x-domain [0.121094 ,    0.125)
+# Task   32 [node016]
+#     x-domain [   0.125 , 0.128906)
+# Task   33 [node017]
+#     x-domain [0.128906 , 0.132812)
+# Task   34 [node018]
+#     x-domain [0.132812 , 0.136719)
+# Task   35 [node019]
+#     x-domain [0.136719 , 0.140625)
+# Task   36 [node020]
+#     x-domain [0.140625 , 0.144531)
+# Task   37 [node021]
+#     x-domain [0.144531 , 0.148438)
+# Task   38 [node022]
+#     x-domain [0.148438 , 0.152344)
+# Task   39 [node023]
+#     x-domain [0.152344 ,  0.15625)
+# Task   40 [node016]
+#     x-domain [ 0.15625 , 0.160156)
+# Task   41 [node017]
+#     x-domain [0.160156 , 0.164062)
+# Task   42 [node018]
+#     x-domain [0.164062 , 0.167969)
+# Task   43 [node019]
+#     x-domain [0.167969 , 0.171875)
+# Task   44 [node020]
+#     x-domain [0.171875 , 0.175781)
+# Task   45 [node021]
+#     x-domain [0.175781 , 0.179688)
+# Task   46 [node022]
+#     x-domain [0.179688 , 0.183594)
+# Task   47 [node023]
+#     x-domain [0.183594 ,   0.1875)
+# Task   48 [node016]
+#     x-domain [  0.1875 , 0.191406)
+# Task   49 [node017]
+#     x-domain [0.191406 , 0.195312)
+# Task   50 [node018]
+#     x-domain [0.195312 , 0.199219)
+# Task   51 [node019]
+#     x-domain [0.199219 , 0.203125)
+# Task   52 [node020]
+#     x-domain [0.203125 , 0.207031)
+# Task   53 [node021]
+#     x-domain [0.207031 , 0.210938)
+# Task   54 [node022]
+#     x-domain [0.210938 , 0.214844)
+# Task   55 [node023]
+#     x-domain [0.214844 ,  0.21875)
+# Task   56 [node016]
+#     x-domain [ 0.21875 , 0.222656)
+# Task   57 [node017]
+#     x-domain [0.222656 , 0.226562)
+# Task   58 [node018]
+#     x-domain [0.226562 , 0.230469)
+# Task   59 [node019]
+#     x-domain [0.230469 , 0.234375)
+# Task   60 [node020]
+#     x-domain [0.234375 , 0.238281)
+# Task   61 [node021]
+#     x-domain [0.238281 , 0.242188)
+# Task   62 [node022]
+#     x-domain [0.242188 , 0.246094)
+# Task   63 [node023]
+#     x-domain [0.246094 ,     0.25)
+# Task   64 [node016]
+#     x-domain [    0.25 , 0.253906)
+# Task   65 [node017]
+#     x-domain [0.253906 , 0.257812)
+# Task   66 [node018]
+#     x-domain [0.257812 , 0.261719)
+# Task   67 [node019]
+#     x-domain [0.261719 , 0.265625)
+# Task   68 [node020]
+#     x-domain [0.265625 , 0.269531)
+# Task   69 [node021]
+#     x-domain [0.269531 , 0.273438)
+# Task   70 [node022]
+#     x-domain [0.273438 , 0.277344)
+# Task   71 [node023]
+#     x-domain [0.277344 ,  0.28125)
+# Task   72 [node016]
+#     x-domain [ 0.28125 , 0.285156)
+# Task   73 [node017]
+#     x-domain [0.285156 , 0.289062)
+# Task   74 [node018]
+#     x-domain [0.289062 , 0.292969)
+# Task   75 [node019]
+#     x-domain [0.292969 , 0.296875)
+# Task   76 [node020]
+#     x-domain [0.296875 , 0.300781)
+# Task   77 [node021]
+#     x-domain [0.300781 , 0.304688)
+# Task   78 [node022]
+#     x-domain [0.304688 , 0.308594)
+# Task   79 [node023]
+#     x-domain [0.308594 ,   0.3125)
+# Task   80 [node016]
+#     x-domain [  0.3125 , 0.316406)
+# Task   81 [node017]
+#     x-domain [0.316406 , 0.320312)
+# Task   82 [node018]
+#     x-domain [0.320312 , 0.324219)
+# Task   83 [node019]
+#     x-domain [0.324219 , 0.328125)
+# Task   84 [node020]
+#     x-domain [0.328125 , 0.332031)
+# Task   85 [node021]
+#     x-domain [0.332031 , 0.335938)
+# Task   86 [node022]
+#     x-domain [0.335938 , 0.339844)
+# Task   87 [node023]
+#     x-domain [0.339844 ,  0.34375)
+# Task   88 [node016]
+#     x-domain [ 0.34375 , 0.347656)
+# Task   89 [node017]
+#     x-domain [0.347656 , 0.351562)
+# Task   90 [node018]
+#     x-domain [0.351562 , 0.355469)
+# Task   91 [node019]
+#     x-domain [0.355469 , 0.359375)
+# Task   92 [node020]
+#     x-domain [0.359375 , 0.363281)
+# Task   93 [node021]
+#     x-domain [0.363281 , 0.367188)
+# Task   94 [node022]
+#     x-domain [0.367188 , 0.371094)
+# Task   95 [node023]
+#     x-domain [0.371094 ,    0.375)
+# Task   96 [node016]
+#     x-domain [   0.375 , 0.378906)
+# Task   97 [node017]
+#     x-domain [0.378906 , 0.382812)
+# Task   98 [node018]
+#     x-domain [0.382812 , 0.386719)
+# Task   99 [node019]
+#     x-domain [0.386719 , 0.390625)
+# Task  100 [node020]
+#     x-domain [0.390625 , 0.394531)
+# Task  101 [node021]
+#     x-domain [0.394531 , 0.398438)
+# Task  102 [node022]
+#     x-domain [0.398438 , 0.402344)
+# Task  103 [node023]
+#     x-domain [0.402344 ,  0.40625)
+# Task  104 [node016]
+#     x-domain [ 0.40625 , 0.410156)
+# Task  105 [node017]
+#     x-domain [0.410156 , 0.414062)
+# Task  106 [node018]
+#     x-domain [0.414062 , 0.417969)
+# Task  107 [node019]
+#     x-domain [0.417969 , 0.421875)
+# Task  108 [node020]
+#     x-domain [0.421875 , 0.425781)
+# Task  109 [node021]
+#     x-domain [0.425781 , 0.429688)
+# Task  110 [node022]
+#     x-domain [0.429688 , 0.433594)
+# Task  111 [node023]
+#     x-domain [0.433594 ,   0.4375)
+# Task  112 [node016]
+#     x-domain [  0.4375 , 0.441406)
+# Task  113 [node017]
+#     x-domain [0.441406 , 0.445312)
+# Task  114 [node018]
+#     x-domain [0.445312 , 0.449219)
+# Task  115 [node019]
+#     x-domain [0.449219 , 0.453125)
+# Task  116 [node020]
+#     x-domain [0.453125 , 0.457031)
+# Task  117 [node021]
+#     x-domain [0.457031 , 0.460938)
+# Task  118 [node022]
+#     x-domain [0.460938 , 0.464844)
+# Task  119 [node023]
+#     x-domain [0.464844 ,  0.46875)
+# Task  120 [node016]
+#     x-domain [ 0.46875 , 0.472656)
+# Task  121 [node017]
+#     x-domain [0.472656 , 0.476562)
+# Task  122 [node018]
+#     x-domain [0.476562 , 0.480469)
+# Task  123 [node019]
+#     x-domain [0.480469 , 0.484375)
+# Task  124 [node020]
+#     x-domain [0.484375 , 0.488281)
+# Task  125 [node021]
+#     x-domain [0.488281 , 0.492188)
+# Task  126 [node022]
+#     x-domain [0.492188 , 0.496094)
+# Task  127 [node023]
+#     x-domain [0.496094 ,      0.5)
+# Task  128 [node016]
+#     x-domain [     0.5 , 0.503906)
+# Task  129 [node017]
+#     x-domain [0.503906 , 0.507812)
+# Task  130 [node018]
+#     x-domain [0.507812 , 0.511719)
+# Task  131 [node019]
+#     x-domain [0.511719 , 0.515625)
+# Task  132 [node020]
+#     x-domain [0.515625 , 0.519531)
+# Task  133 [node021]
+#     x-domain [0.519531 , 0.523438)
+# Task  134 [node022]
+#     x-domain [0.523438 , 0.527344)
+# Task  135 [node023]
+#     x-domain [0.527344 ,  0.53125)
+# Task  136 [node016]
+#     x-domain [ 0.53125 , 0.535156)
+# Task  137 [node017]
+#     x-domain [0.535156 , 0.539062)
+# Task  138 [node018]
+#     x-domain [0.539062 , 0.542969)
+# Task  139 [node019]
+#     x-domain [0.542969 , 0.546875)
+# Task  140 [node020]
+#     x-domain [0.546875 , 0.550781)
+# Task  141 [node021]
+#     x-domain [0.550781 , 0.554688)
+# Task  142 [node022]
+#     x-domain [0.554688 , 0.558594)
+# Task  143 [node023]
+#     x-domain [0.558594 ,   0.5625)
+# Task  144 [node016]
+#     x-domain [  0.5625 , 0.566406)
+# Task  145 [node017]
+#     x-domain [0.566406 , 0.570312)
+# Task  146 [node018]
+#     x-domain [0.570312 , 0.574219)
+# Task  147 [node019]
+#     x-domain [0.574219 , 0.578125)
+# Task  148 [node020]
+#     x-domain [0.578125 , 0.582031)
+# Task  149 [node021]
+#     x-domain [0.582031 , 0.585938)
+# Task  150 [node022]
+#     x-domain [0.585938 , 0.589844)
+# Task  151 [node023]
+#     x-domain [0.589844 ,  0.59375)
+# Task  152 [node016]
+#     x-domain [ 0.59375 , 0.597656)
+# Task  153 [node017]
+#     x-domain [0.597656 , 0.601562)
+# Task  154 [node018]
+#     x-domain [0.601562 , 0.605469)
+# Task  155 [node019]
+#     x-domain [0.605469 , 0.609375)
+# Task  156 [node020]
+#     x-domain [0.609375 , 0.613281)
+# Task  157 [node021]
+#     x-domain [0.613281 , 0.617188)
+# Task  158 [node022]
+#     x-domain [0.617188 , 0.621094)
+# Task  159 [node023]
+#     x-domain [0.621094 ,    0.625)
+# Task  160 [node016]
+#     x-domain [   0.625 , 0.628906)
+# Task  161 [node017]
+#     x-domain [0.628906 , 0.632812)
+# Task  162 [node018]
+#     x-domain [0.632812 , 0.636719)
+# Task  163 [node019]
+#     x-domain [0.636719 , 0.640625)
+# Task  164 [node020]
+#     x-domain [0.640625 , 0.644531)
+# Task  165 [node021]
+#     x-domain [0.644531 , 0.648438)
+# Task  166 [node022]
+#     x-domain [0.648438 , 0.652344)
+# Task  167 [node023]
+#     x-domain [0.652344 ,  0.65625)
+# Task  168 [node016]
+#     x-domain [ 0.65625 , 0.660156)
+# Task  169 [node017]
+#     x-domain [0.660156 , 0.664062)
+# Task  170 [node018]
+#     x-domain [0.664062 , 0.667969)
+# Task  171 [node019]
+#     x-domain [0.667969 , 0.671875)
+# Task  172 [node020]
+#     x-domain [0.671875 , 0.675781)
+# Task  173 [node021]
+#     x-domain [0.675781 , 0.679688)
+# Task  174 [node022]
+#     x-domain [0.679688 , 0.683594)
+# Task  175 [node023]
+#     x-domain [0.683594 ,   0.6875)
+# Task  176 [node016]
+#     x-domain [  0.6875 , 0.691406)
+# Task  177 [node017]
+#     x-domain [0.691406 , 0.695312)
+# Task  178 [node018]
+#     x-domain [0.695312 , 0.699219)
+# Task  179 [node019]
+#     x-domain [0.699219 , 0.703125)
+# Task  180 [node020]
+#     x-domain [0.703125 , 0.707031)
+# Task  181 [node021]
+#     x-domain [0.707031 , 0.710938)
+# Task  182 [node022]
+#     x-domain [0.710938 , 0.714844)
+# Task  183 [node023]
+#     x-domain [0.714844 ,  0.71875)
+# Task  184 [node016]
+#     x-domain [ 0.71875 , 0.722656)
+# Task  185 [node017]
+#     x-domain [0.722656 , 0.726562)
+# Task  186 [node018]
+#     x-domain [0.726562 , 0.730469)
+# Task  187 [node019]
+#     x-domain [0.730469 , 0.734375)
+# Task  188 [node020]
+#     x-domain [0.734375 , 0.738281)
+# Task  189 [node021]
+#     x-domain [0.738281 , 0.742188)
+# Task  190 [node022]
+#     x-domain [0.742188 , 0.746094)
+# Task  191 [node023]
+#     x-domain [0.746094 ,     0.75)
+# Task  192 [node016]
+#     x-domain [    0.75 , 0.753906)
+# Task  193 [node017]
+#     x-domain [0.753906 , 0.757812)
+# Task  194 [node018]
+#     x-domain [0.757812 , 0.761719)
+# Task  195 [node019]
+#     x-domain [0.761719 , 0.765625)
+# Task  196 [node020]
+#     x-domain [0.765625 , 0.769531)
+# Task  197 [node021]
+#     x-domain [0.769531 , 0.773438)
+# Task  198 [node022]
+#     x-domain [0.773438 , 0.777344)
+# Task  199 [node023]
+#     x-domain [0.777344 ,  0.78125)
+# Task  200 [node016]
+#     x-domain [ 0.78125 , 0.785156)
+# Task  201 [node017]
+#     x-domain [0.785156 , 0.789062)
+# Task  202 [node018]
+#     x-domain [0.789062 , 0.792969)
+# Task  203 [node019]
+#     x-domain [0.792969 , 0.796875)
+# Task  204 [node020]
+#     x-domain [0.796875 , 0.800781)
+# Task  205 [node021]
+#     x-domain [0.800781 , 0.804688)
+# Task  206 [node022]
+#     x-domain [0.804688 , 0.808594)
+# Task  207 [node023]
+#     x-domain [0.808594 ,   0.8125)
+# Task  208 [node016]
+#     x-domain [  0.8125 , 0.816406)
+# Task  209 [node017]
+#     x-domain [0.816406 , 0.820312)
+# Task  210 [node018]
+#     x-domain [0.820312 , 0.824219)
+# Task  211 [node019]
+#     x-domain [0.824219 , 0.828125)
+# Task  212 [node020]
+#     x-domain [0.828125 , 0.832031)
+# Task  213 [node021]
+#     x-domain [0.832031 , 0.835938)
+# Task  214 [node022]
+#     x-domain [0.835938 , 0.839844)
+# Task  215 [node023]
+#     x-domain [0.839844 ,  0.84375)
+# Task  216 [node016]
+#     x-domain [ 0.84375 , 0.847656)
+# Task  217 [node017]
+#     x-domain [0.847656 , 0.851562)
+# Task  218 [node018]
+#     x-domain [0.851562 , 0.855469)
+# Task  219 [node019]
+#     x-domain [0.855469 , 0.859375)
+# Task  220 [node020]
+#     x-domain [0.859375 , 0.863281)
+# Task  221 [node021]
+#     x-domain [0.863281 , 0.867188)
+# Task  222 [node022]
+#     x-domain [0.867188 , 0.871094)
+# Task  223 [node023]
+#     x-domain [0.871094 ,    0.875)
+# Task  224 [node016]
+#     x-domain [   0.875 , 0.878906)
+# Task  225 [node017]
+#     x-domain [0.878906 , 0.882812)
+# Task  226 [node018]
+#     x-domain [0.882812 , 0.886719)
+# Task  227 [node019]
+#     x-domain [0.886719 , 0.890625)
+# Task  228 [node020]
+#     x-domain [0.890625 , 0.894531)
+# Task  229 [node021]
+#     x-domain [0.894531 , 0.898438)
+# Task  230 [node022]
+#     x-domain [0.898438 , 0.902344)
+# Task  231 [node023]
+#     x-domain [0.902344 ,  0.90625)
+# Task  232 [node016]
+#     x-domain [ 0.90625 , 0.910156)
+# Task  233 [node017]
+#     x-domain [0.910156 , 0.914062)
+# Task  234 [node018]
+#     x-domain [0.914062 , 0.917969)
+# Task  235 [node019]
+#     x-domain [0.917969 , 0.921875)
+# Task  236 [node020]
+#     x-domain [0.921875 , 0.925781)
+# Task  237 [node021]
+#     x-domain [0.925781 , 0.929688)
+# Task  238 [node022]
+#     x-domain [0.929688 , 0.933594)
+# Task  239 [node023]
+#     x-domain [0.933594 ,   0.9375)
+# Task  240 [node016]
+#     x-domain [  0.9375 , 0.941406)
+# Task  241 [node017]
+#     x-domain [0.941406 , 0.945312)
+# Task  242 [node018]
+#     x-domain [0.945312 , 0.949219)
+# Task  243 [node019]
+#     x-domain [0.949219 , 0.953125)
+# Task  244 [node020]
+#     x-domain [0.953125 , 0.957031)
+# Task  245 [node021]
+#     x-domain [0.957031 , 0.960938)
+# Task  246 [node022]
+#     x-domain [0.960938 , 0.964844)
+# Task  247 [node023]
+#     x-domain [0.964844 ,  0.96875)
+# Task  248 [node016]
+#     x-domain [ 0.96875 , 0.972656)
+# Task  249 [node017]
+#     x-domain [0.972656 , 0.976562)
+# Task  250 [node018]
+#     x-domain [0.976562 , 0.980469)
+# Task  251 [node019]
+#     x-domain [0.980469 , 0.984375)
+# Task  252 [node020]
+#     x-domain [0.984375 , 0.988281)
+# Task  253 [node021]
+#     x-domain [0.988281 , 0.992188)
+# Task  254 [node022]
+#     x-domain [0.992188 , 0.996094)
+# Task  255 [node023]
+#     x-domain [0.996094 ,        1)
+#
+#=====================================================
+
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Information about (an empty) particle of the given type:
+# Below we only show info about methods we have implemented support for
+# Particle uses fiducial communication append_to_buffer method (assumes no dynamic alloc inside class)
+# Particle uses fiducial communication assign_from_buffer method (assumes no dynamic alloc inside class)
+# Particle uses fiducial size method. Size of particle is 104 bytes
+# Dimension is 3
+# Particle has [Position] (24 bytes)
+# Particle has [Velocity] (24 bytes)
+# Particle has [ID] (8 bytes)
+# Particle has [1LPT Displacement field] (12 bytes)
+# Particle has [2LPT Displacement field] (12 bytes)
+# Particle has [Lagrangian position] (24 bytes)
+# Particle compatible with 2LPT COLA
+# Particle compatible with 2+ LPT scaledependent COLA
+#
+#=====================================================
+
+
+#=====================================================
+# Parameter map contains 57 elements:
+#=====================================================
+  all_parameters_must_be_in_file : true
+  bispectrum                     : false
+  cosmology_As                   : 1.73145e-09    
+  cosmology_Neffective           : 3.046          
+  cosmology_OmegaCDM             : 0.21806        
+  cosmology_OmegaLambda          : 0.737916       
+  cosmology_OmegaMNu             : 0.00155093     
+  cosmology_Omegab               : 0.0424732      
+  cosmology_TCMB_kelvin          : 2.7255         
+  cosmology_h                    : 0.633795       
+  cosmology_kpivot_mpc           : 0.05           
+  cosmology_model                : w0waCDM        
+  cosmology_ns                   : 0.996061       
+  cosmology_w0                   : -1.09446       
+  cosmology_wa                   : 0              
+  fof                            : false
+  force_density_assignment_method : CIC            
+  force_kernel                   : continuous_greens_function
+  force_linear_massive_neutrinos : true
+  force_nmesh                    : 2048           
+  gravity_model                  : GR             
+  ic_LPT_order                   : 2              
+  ic_fix_amplitude               : true
+  ic_initial_redshift            : 19             
+  ic_input_filename              : /home/joaoreboucas/COLA_projects/wCDM/transferinfo_files/transferinfo251.txt
+  ic_input_redshift              : 19             
+  ic_nmesh                       : 1024           
+  ic_random_field_type           : gaussian       
+  ic_random_generator            : GSL            
+  ic_random_seed                 : 1234           
+  ic_reverse_phases              : false
+  ic_sigma8                      : 0.83           
+  ic_sigma8_normalization        : false
+  ic_sigma8_redshift             : 0              
+  ic_type_of_input               : transferinfofile
+  ic_use_gravity_model_GR        : true
+  output_fileformat              : GADGET         
+  output_folder                  : /home/joaoreboucas/COLA_projects/wCDM/outputs/251
+  output_particles               : false
+  output_redshifts               : [              3 2 1 0.5 0 ]
+  particle_Npart_1D              : 1024           
+  particle_allocation_factor     : 1.25           
+  pofk                           : true
+  pofk_density_assignment_method : PCS            
+  pofk_interlacing               : true
+  pofk_multipole                 : false
+  pofk_nmesh                     : 1024           
+  pofk_subtract_shotnoise        : false
+  simulation_boxsize             : 1024           
+  simulation_name                : run_251        
+  simulation_use_cola            : true
+  simulation_use_scaledependent_cola : true
+  timestep_algorithm             : KDK            
+  timestep_cola_nLPT             : -2.5           
+  timestep_method                : Quinn          
+  timestep_nsteps                : [              12 5 8 9 17 ]
+  timestep_scalefactor_spacing   : linear         
+#=====================================================
+
+
+#=====================================================
+# Cosmology [w0waCDM]
+# Omegab      : 0.0424732
+# OmegaM      : 0.262084
+# OmegaMNu    : 0.00155093
+# OmegaCDM    : 0.21806
+# OmegaLambda : 0.737916
+# OmegaR      : 6.15633e-05
+# OmegaNu     : 4.25876e-05
+# OmegaRtot   : 0.000104151
+# OmegaK      : -0.000104151
+# h           : 0.633795
+# N_nu        : 3
+# Neff        : 3.046
+# Mnu         : 0.0579371 eV
+# TCMB        : 2.7255 K
+# Tnu         : 1.95278 K
+# As          : 1.73145e-09
+# ns          : 0.996061
+# kpivot      : 0.05 1/Mpc
+# w0          : -1.09446
+# wa          : 0
+#=====================================================
+
+
+#=====================================================
+# GravityModel is [GR] and has the cosmology: [w0waCDM]
+# Growth factors unity at zini = 19
+# Starting integrating growth factors from z = 20
+# scaledependent_growth : true
+#=====================================================
+
+
+#=====================================================
+# NBodySimulation::read_parameters
+#=====================================================
+
+simulation_name                          : run_251
+simulation_boxsize                       : 1024
+simulation_use_cola                      : true
+simulation_use_scaledependent_cola       : true
+force_nmesh                              : 2048
+force_kernel                             : continuous_greens_function
+force_density_assignment_method          : CIC
+force_linear_massive_neutrinos           : true
+ic_type_of_input                         : transferinfofile
+ic_input_filename                        : /home/joaoreboucas/COLA_projects/wCDM/transferinfo_files/transferinfo251.txt
+ic_random_field_type                     : gaussian
+ic_input_redshift                        : 19
+ic_nmesh                                 : 1024
+ic_random_seed                           : 1234
+ic_random_generator                      : GSL
+ic_LPT_order                             : 2
+ic_fix_amplitude                         : true
+ic_reverse_phases                        : false
+ic_type_of_input                         : transferinfofile
+particle_Npart_1D                        : 1024
+particle_allocation_factor               : 1.25
+timestep_nsteps                          : 12 5 8 9 17 
+timestep_method                          : Quinn
+timestep_algorithm                       : KDK
+timestep_scalefactor_spacing             : linear
+pofk                                     : true
+pofk_nmesh                               : 1024
+pofk_interlacing                         : true
+pofk_subtract_shotnoise                  : false
+pofk_density_assignment_method           : PCS
+output_particles                         : false
+output_redshifts                         : 3 , 2 , 1 , 0.5 , 0 , 
+output_fileformat                        : GADGET
+output_folder                            : /home/joaoreboucas/COLA_projects/wCDM/outputs/251
+
+#=====================================================
+# Create initial conditions
+#=====================================================
+
+
+#=====================================================
+# Testing splines: 
+#=====================================================
+k =  0.01: P(k,zini) = 86.7003 (Mpc/h)^3
+k =  0.10: P(k,zini) = 15.1094 (Mpc/h)^3
+k =  1.00: P(k,zini) = 0.16537 (Mpc/h)^3
+k = 10.00: P(k,zini) = 0.000542288 (Mpc/h)^3
+
+#=====================================================
+# Sigma(R = 8 Mpc/h, z = 0.0 ) : 0.650989       
+#=====================================================
+
+#=====================================================
+#
+#                .___  _________   
+#                |   | \_   ___ \  
+#                |   | /    \  \/  
+#                |   | \     \____ 
+#                |___|  \______  / 
+#                              \/  
+#
+# Generating initial conditions for N-body
+# Order in LPT = 2
+# The boxsize is 1024 comoving Mpc/h
+# The initial redshift zini = 19
+# Particle has [Position] x_code = x / Box (24 bytes)
+# Particle has [Velocity] v_code = a^2 dxdt / (H0 Box) (24 bytes)
+# Particle has [ID] (8 bytes)
+# Particle has [1LPT Displacement field] (12 bytes)
+# Particle has [2LPT Displacement field] (12 bytes)
+# Particle has [Lagrangian position] (24 bytes)
+# Total size of particle is 104 bytes
+# We will make 1024^3 particles
+# Plus a buffer with room for 25%% more particles
+# We will allocate ~545.26 MB per task for the particles
+#
+#=====================================================
+
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4194304 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               80 %% (min)
+#               80 %% (max) filled across tasks
+#
+#=====================================================
+
+Storing unique ID in particle
+Storing Lagrangian position q in particle
+Adding 1LPT position to particle
+Adding 1LPT velocity to particle
+Storing 1LPT displacment field in particle
+Maximum 1LPT displacements: 1.80441 Mpc/h
+Maximum 1LPT velocity: 419.805 km/s peculiar
+Adding 2LPT position to particle
+Adding 2LPT velocity to particle
+Storing 2LPT displacment field in particle
+Maximum 2LPT displacements: 0.042848 Mpc/h
+Maximum 2LPT velocity: 19.6513 km/s peculiar
+Storing initial 2LPT potential 
+
+#=====================================================
+# The time-steps and outputs we plan to take
+#=====================================================
+
+Next output z = 3 nsteps: 12
+Step: 0    / 12  
+Positions  from z = 19              -> 14             
+Velocities from z = 19              -> 16.1429        
+Step: 1    / 12  
+Positions  from z = 14              -> 11             
+Velocities from z = 16.1429         -> 12.3333        
+Step: 2    / 12  
+Positions  from z = 11              -> 9              
+Velocities from z = 12.3333         -> 9.90909        
+Step: 3    / 12  
+Positions  from z = 9               -> 7.57143        
+Velocities from z = 9.90909         -> 8.23077        
+Step: 4    / 12  
+Positions  from z = 7.57143         -> 6.5            
+Velocities from z = 8.23077         -> 7              
+Step: 5    / 12  
+Positions  from z = 6.5             -> 5.66667        
+Velocities from z = 7               -> 6.05882        
+Step: 6    / 12  
+Positions  from z = 5.66667         -> 5              
+Velocities from z = 6.05882         -> 5.31579        
+Step: 7    / 12  
+Positions  from z = 5               -> 4.45455        
+Velocities from z = 5.31579         -> 4.71429        
+Step: 8    / 12  
+Positions  from z = 4.45455         -> 4              
+Velocities from z = 4.71429         -> 4.21739        
+Step: 9    / 12  
+Positions  from z = 4               -> 3.61538        
+Velocities from z = 4.21739         -> 3.8            
+Step: 10   / 12  
+Positions  from z = 3.61538         -> 3.28571        
+Velocities from z = 3.8             -> 3.44444        
+Step: 11   / 12  
+Positions  from z = 3.28571         -> 3              
+Velocities from z = 3.44444         -> 3.13793        
+Step: 12   / 12  
+Positions  from z = 3               -> 3              
+Velocities from z = 3.13793         -> 3              
+
+Next output z = 2 nsteps: 5
+Step: 0    / 5   
+Positions  from z = 3               -> 2.75           
+Velocities from z = 3               -> 2.87097        
+Step: 1    / 5   
+Positions  from z = 2.75            -> 2.52941        
+Velocities from z = 2.87097         -> 2.63636        
+Step: 2    / 5   
+Positions  from z = 2.52941         -> 2.33333        
+Velocities from z = 2.63636         -> 2.42857        
+Step: 3    / 5   
+Positions  from z = 2.33333         -> 2.15789        
+Velocities from z = 2.42857         -> 2.24324        
+Step: 4    / 5   
+Positions  from z = 2.15789         -> 2              
+Velocities from z = 2.24324         -> 2.07692        
+Step: 5    / 5   
+Positions  from z = 2               -> 2              
+Velocities from z = 2.07692         -> 2              
+
+Next output z = 1 nsteps: 8
+Step: 0    / 8   
+Positions  from z = 2               -> 1.82353        
+Velocities from z = 2               -> 1.90909        
+Step: 1    / 8   
+Positions  from z = 1.82353         -> 1.66667        
+Velocities from z = 1.90909         -> 1.74286        
+Step: 2    / 8   
+Positions  from z = 1.66667         -> 1.52632        
+Velocities from z = 1.74286         -> 1.59459        
+Step: 3    / 8   
+Positions  from z = 1.52632         -> 1.4            
+Velocities from z = 1.59459         -> 1.46154        
+Step: 4    / 8   
+Positions  from z = 1.4             -> 1.28571        
+Velocities from z = 1.46154         -> 1.34146        
+Step: 5    / 8   
+Positions  from z = 1.28571         -> 1.18182        
+Velocities from z = 1.34146         -> 1.23256        
+Step: 6    / 8   
+Positions  from z = 1.18182         -> 1.08696        
+Velocities from z = 1.23256         -> 1.13333        
+Step: 7    / 8   
+Positions  from z = 1.08696         -> 1              
+Velocities from z = 1.13333         -> 1.04255        
+Step: 8    / 8   
+Positions  from z = 1               -> 1              
+Velocities from z = 1.04255         -> 1              
+
+Next output z = 0.5 nsteps: 9
+Step: 0    / 9   
+Positions  from z = 1               -> 0.928571       
+Velocities from z = 1               -> 0.963636       
+Step: 1    / 9   
+Positions  from z = 0.928571        -> 0.862069       
+Velocities from z = 0.963636        -> 0.894737       
+Step: 2    / 9   
+Positions  from z = 0.862069        -> 0.8            
+Velocities from z = 0.894737        -> 0.830508       
+Step: 3    / 9   
+Positions  from z = 0.8             -> 0.741935       
+Velocities from z = 0.830508        -> 0.770492       
+Step: 4    / 9   
+Positions  from z = 0.741935        -> 0.6875         
+Velocities from z = 0.770492        -> 0.714286       
+Step: 5    / 9   
+Positions  from z = 0.6875          -> 0.636364       
+Velocities from z = 0.714286        -> 0.661538       
+Step: 6    / 9   
+Positions  from z = 0.636364        -> 0.588235       
+Velocities from z = 0.661538        -> 0.61194        
+Step: 7    / 9   
+Positions  from z = 0.588235        -> 0.542857       
+Velocities from z = 0.61194         -> 0.565217       
+Step: 8    / 9   
+Positions  from z = 0.542857        -> 0.5            
+Velocities from z = 0.565217        -> 0.521127       
+Step: 9    / 9   
+Positions  from z = 0.5             -> 0.5            
+Velocities from z = 0.521127        -> 0.5            
+
+Next output z = 0 nsteps: 17
+Step: 0    / 17  
+Positions  from z = 0.5             -> 0.457143       
+Velocities from z = 0.5             -> 0.478261       
+Step: 1    / 17  
+Positions  from z = 0.457143        -> 0.416667       
+Velocities from z = 0.478261        -> 0.43662        
+Step: 2    / 17  
+Positions  from z = 0.416667        -> 0.378378       
+Velocities from z = 0.43662         -> 0.39726        
+Step: 3    / 17  
+Positions  from z = 0.378378        -> 0.342105       
+Velocities from z = 0.39726         -> 0.36           
+Step: 4    / 17  
+Positions  from z = 0.342105        -> 0.307692       
+Velocities from z = 0.36            -> 0.324675       
+Step: 5    / 17  
+Positions  from z = 0.307692        -> 0.275          
+Velocities from z = 0.324675        -> 0.291139       
+Step: 6    / 17  
+Positions  from z = 0.275           -> 0.243902       
+Velocities from z = 0.291139        -> 0.259259       
+Step: 7    / 17  
+Positions  from z = 0.243902        -> 0.214286       
+Velocities from z = 0.259259        -> 0.228916       
+Step: 8    / 17  
+Positions  from z = 0.214286        -> 0.186047       
+Velocities from z = 0.228916        -> 0.2            
+Step: 9    / 17  
+Positions  from z = 0.186047        -> 0.159091       
+Velocities from z = 0.2             -> 0.172414       
+Step: 10   / 17  
+Positions  from z = 0.159091        -> 0.133333       
+Velocities from z = 0.172414        -> 0.146067       
+Step: 11   / 17  
+Positions  from z = 0.133333        -> 0.108696       
+Velocities from z = 0.146067        -> 0.120879       
+Step: 12   / 17  
+Positions  from z = 0.108696        -> 0.0851064      
+Velocities from z = 0.120879        -> 0.0967742      
+Step: 13   / 17  
+Positions  from z = 0.0851064       -> 0.0625         
+Velocities from z = 0.0967742       -> 0.0736842      
+Step: 14   / 17  
+Positions  from z = 0.0625          -> 0.0408163      
+Velocities from z = 0.0736842       -> 0.0515464      
+Step: 15   / 17  
+Positions  from z = 0.0408163       -> 0.02           
+Velocities from z = 0.0515464       -> 0.030303       
+Step: 16   / 17  
+Positions  from z = 0.02            -> 0              
+Velocities from z = 0.030303        -> 0.00990099     
+Step: 17   / 17  
+Positions  from z = 0               -> 0              
+Velocities from z = 0.00990099      -> 0              
+
+
+#=====================================================
+# Starting main time-stepping loop
+#=====================================================
+
+
+Taking substep: 0 / 12 Total steps taken: 0
+Positions from  z = 19              -> 14             
+Velocities from z = 19              -> 16.1429        
+deltatime_pos = 2.33476         deltatime_vel = 1.3961         
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 6.91925e-05
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 4.08046e-05
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4191884 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               79.477 %% (min)
+#               80.475 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2185.13         MB (min over tasks)
+# Current RSS: 2197.68         MB (max over tasks)
+# Peak RSS:    2499.65         MB (min over tasks)
+# Peak RSS:    2507.52         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 12 Total steps taken: 1
+Positions from  z = 14              -> 11             
+Velocities from z = 16.1429         -> 12.3333        
+deltatime_pos = 1.59404         deltatime_vel = 1.89077        
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000221935
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 7.46747e-05
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4191891 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               79.3943 %% (min)
+#               80.4963 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2167.34         MB (min over tasks)
+# Current RSS: 2228.45         MB (max over tasks)
+# Peak RSS:    2499.65         MB (min over tasks)
+# Peak RSS:    2536.48         MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 12 Total steps taken: 2
+Positions from  z = 11              -> 9              
+Velocities from z = 12.3333         -> 9.90909        
+deltatime_pos = 1.1768          deltatime_vel = 1.35231        
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000185688
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 8.1515e-05
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4192485 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               79.3777 %% (min)
+#               80.536 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2138.29         MB (min over tasks)
+# Current RSS: 2228.75         MB (max over tasks)
+# Peak RSS:    2499.65         MB (min over tasks)
+# Peak RSS:    2536.84         MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 12 Total steps taken: 3
+Positions from  z = 9               -> 7.57143        
+Velocities from z = 9.90909         -> 8.23077        
+deltatime_pos = 0.914469        deltatime_vel = 1.02831        
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000159961
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 8.37394e-05
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4192549 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               79.2628 %% (min)
+#               80.5908 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2123.7          MB (min over tasks)
+# Current RSS: 2228.88         MB (max over tasks)
+# Peak RSS:    2499.65         MB (min over tasks)
+# Peak RSS:    2539.01         MB (max over tasks)
+#=====================================================
+
+Taking substep: 4 / 12 Total steps taken: 4
+Positions from  z = 7.57143         -> 6.5            
+Velocities from z = 8.23077         -> 7              
+deltatime_pos = 0.736844        deltatime_vel = 0.815614       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000135705
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 8.85655e-05
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4190313 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               79.1751 %% (min)
+#               80.7232 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2113.09         MB (min over tasks)
+# Current RSS: 2228.47         MB (max over tasks)
+# Peak RSS:    2499.65         MB (min over tasks)
+# Peak RSS:    2539.03         MB (max over tasks)
+#=====================================================
+
+Taking substep: 5 / 12 Total steps taken: 5
+Positions from  z = 6.5             -> 5.66667        
+Velocities from z = 7               -> 6.05882        
+deltatime_pos = 0.60995         deltatime_vel = 0.667127       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000127842
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000107249
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4187733 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               79.0615 %% (min)
+#               80.8503 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2106.47         MB (min over tasks)
+# Current RSS: 2228.48         MB (max over tasks)
+# Peak RSS:    2499.65         MB (min over tasks)
+# Peak RSS:    2539.03         MB (max over tasks)
+#=====================================================
+
+Taking substep: 6 / 12 Total steps taken: 6
+Positions from  z = 5.66667         -> 5              
+Velocities from z = 6.05882         -> 5.31579        
+deltatime_pos = 0.515535        deltatime_vel = 0.558601       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000155236
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000180721
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4186561 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.9692 %% (min)
+#               80.9383 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2102.36         MB (min over tasks)
+# Current RSS: 2228.5          MB (max over tasks)
+# Peak RSS:    2499.65         MB (min over tasks)
+# Peak RSS:    2539.03         MB (max over tasks)
+#=====================================================
+
+Taking substep: 7 / 12 Total steps taken: 7
+Positions from  z = 5               -> 4.45455        
+Velocities from z = 5.31579         -> 4.71429        
+deltatime_pos = 0.443001        deltatime_vel = 0.476409       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000205713
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000252313
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4186459 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.9185 %% (min)
+#               81.0049 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2094.18         MB (min over tasks)
+# Current RSS: 2228.65         MB (max over tasks)
+# Peak RSS:    2499.65         MB (min over tasks)
+# Peak RSS:    2547.35         MB (max over tasks)
+#=====================================================
+
+Taking substep: 8 / 12 Total steps taken: 8
+Positions from  z = 4.45455         -> 4              
+Velocities from z = 4.71429         -> 4.21739        
+deltatime_pos = 0.385817        deltatime_vel = 0.412363       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000192584
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.0003382
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4186703 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.8323 %% (min)
+#               81.1223 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2090.06         MB (min over tasks)
+# Current RSS: 2228.67         MB (max over tasks)
+# Peak RSS:    2500.18         MB (min over tasks)
+# Peak RSS:    2566.31         MB (max over tasks)
+#=====================================================
+
+Taking substep: 9 / 12 Total steps taken: 9
+Positions from  z = 4               -> 3.61538        
+Velocities from z = 4.21739         -> 3.8            
+deltatime_pos = 0.339761        deltatime_vel = 0.361282       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000198828
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000392834
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4186045 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.7477 %% (min)
+#               81.2291 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2094.25         MB (min over tasks)
+# Current RSS: 2228.69         MB (max over tasks)
+# Peak RSS:    2502.2          MB (min over tasks)
+# Peak RSS:    2585.47         MB (max over tasks)
+#=====================================================
+
+Taking substep: 10 / 12 Total steps taken: 10
+Positions from  z = 3.61538         -> 3.28571        
+Velocities from z = 3.8             -> 3.44444        
+deltatime_pos = 0.301994        deltatime_vel = 0.319739       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000277766
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000445134
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4185492 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.6361 %% (min)
+#               81.3238 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2077.34         MB (min over tasks)
+# Current RSS: 2228.72         MB (max over tasks)
+# Peak RSS:    2502.2          MB (min over tasks)
+# Peak RSS:    2603.5          MB (max over tasks)
+#=====================================================
+
+Taking substep: 11 / 12 Total steps taken: 11
+Positions from  z = 3.28571         -> 3              
+Velocities from z = 3.44444         -> 3.13793        
+deltatime_pos = 0.270544        deltatime_vel = 0.285391       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000327954
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000605064
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4185214 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.544 %% (min)
+#               81.4248 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2067.46         MB (min over tasks)
+# Current RSS: 2228.76         MB (max over tasks)
+# Peak RSS:    2502.2          MB (min over tasks)
+# Peak RSS:    2621.64         MB (max over tasks)
+#=====================================================
+
+Taking substep: 12 / 12 Total steps taken: 12
+Positions from  z = 3               -> 3              
+Velocities from z = 3.13793         -> 3              
+deltatime_pos = -8.54491e-16    deltatime_vel = 0.129462       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 8.59455e-05
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 1.87792e-18
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4185214 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.544 %% (min)
+#               81.4248 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2064.17         MB (min over tasks)
+# Current RSS: 2228.76         MB (max over tasks)
+# Peak RSS:    2502.2          MB (min over tasks)
+# Peak RSS:    2638.94         MB (max over tasks)
+#=====================================================
+
+#=====================================================
+# Analyze and output
+#=====================================================
+Doing output 0 at redshift z = 3
+Snapshot will be stored in folder /home/joaoreboucas/COLA_projects/wCDM/outputs/251/snapshot_run_251_z3.000
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+#=====================================================
+# Computing power-spectrum of particles
+# pofk_nmesh                     : 1024
+# pofk_density_assignment_method : PCS
+# pofk_interlacing               : true
+# pofk_subtract_shotnoise        : false
+#=====================================================
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+Taking substep: 0 / 5 Total steps taken: 12
+Positions from  z = 3               -> 2.75           
+Velocities from z = 3               -> 2.87097        
+deltatime_pos = 0.244005        deltatime_vel = 0.127123       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 8.28685e-05
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000636109
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4185435 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.4589 %% (min)
+#               81.5177 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2076.22         MB (min over tasks)
+# Current RSS: 2228.76         MB (max over tasks)
+# Peak RSS:    2502.2          MB (min over tasks)
+# Peak RSS:    2639.02         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 5 Total steps taken: 13
+Positions from  z = 2.75            -> 2.52941        
+Velocities from z = 2.87097         -> 2.63636        
+deltatime_pos = 0.221347        deltatime_vel = 0.232126       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000357836
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000749577
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4184403 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.3779 %% (min)
+#               81.6027 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2077.48         MB (min over tasks)
+# Current RSS: 2228.74         MB (max over tasks)
+# Peak RSS:    2502.2          MB (min over tasks)
+# Peak RSS:    2656.07         MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 5 Total steps taken: 14
+Positions from  z = 2.52941         -> 2.33333        
+Velocities from z = 2.63636         -> 2.42857        
+deltatime_pos = 0.201804        deltatime_vel = 0.211131       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000313136
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000773606
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4182753 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.2975 %% (min)
+#               81.6698 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2082.45         MB (min over tasks)
+# Current RSS: 2228.73         MB (max over tasks)
+# Peak RSS:    2502.4          MB (min over tasks)
+# Peak RSS:    2672.41         MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 5 Total steps taken: 15
+Positions from  z = 2.33333         -> 2.15789        
+Velocities from z = 2.42857         -> 2.24324        
+deltatime_pos = 0.184794        deltatime_vel = 0.192935       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000365697
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000779121
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4181298 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.216 %% (min)
+#               81.7623 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2082.51         MB (min over tasks)
+# Current RSS: 2228.73         MB (max over tasks)
+# Peak RSS:    2502.4          MB (min over tasks)
+# Peak RSS:    2688.25         MB (max over tasks)
+#=====================================================
+
+Taking substep: 4 / 5 Total steps taken: 16
+Positions from  z = 2.15789         -> 2              
+Velocities from z = 2.24324         -> 2.07692        
+deltatime_pos = 0.169868        deltatime_vel = 0.177029       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000383346
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000822129
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4179258 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.1408 %% (min)
+#               81.86 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2082.56         MB (min over tasks)
+# Current RSS: 2228.72         MB (max over tasks)
+# Peak RSS:    2502.47         MB (min over tasks)
+# Peak RSS:    2703.33         MB (max over tasks)
+#=====================================================
+
+Taking substep: 5 / 5 Total steps taken: 17
+Positions from  z = 2               -> 2              
+Velocities from z = 2.07692         -> 2              
+deltatime_pos = 0               deltatime_vel = 0.0821366      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 9.1834e-05
+[Kick] + [Drift] Scaledependent COLA 2LPT
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4179258 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.1408 %% (min)
+#               81.86 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2066.4          MB (min over tasks)
+# Current RSS: 2227            MB (max over tasks)
+# Peak RSS:    2502.64         MB (min over tasks)
+# Peak RSS:    2717.63         MB (max over tasks)
+#=====================================================
+
+#=====================================================
+# Analyze and output
+#=====================================================
+Doing output 1 at redshift z = 2
+Snapshot will be stored in folder /home/joaoreboucas/COLA_projects/wCDM/outputs/251/snapshot_run_251_z2.000
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+#=====================================================
+# Computing power-spectrum of particles
+# pofk_nmesh                     : 1024
+# pofk_density_assignment_method : PCS
+# pofk_interlacing               : true
+# pofk_subtract_shotnoise        : false
+#=====================================================
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+Taking substep: 0 / 8 Total steps taken: 17
+Positions from  z = 2               -> 1.82353        
+Velocities from z = 2               -> 1.90909        
+deltatime_pos = 0.193956        deltatime_vel = 0.100909       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000138609
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.0011571
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4177662 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               78.0558 %% (min)
+#               81.9519 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2085.07         MB (min over tasks)
+# Current RSS: 2227            MB (max over tasks)
+# Peak RSS:    2502.64         MB (min over tasks)
+# Peak RSS:    2717.72         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 8 Total steps taken: 18
+Positions from  z = 1.82353         -> 1.66667        
+Velocities from z = 1.90909         -> 1.74286        
+deltatime_pos = 0.176109        deltatime_vel = 0.184632       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000574923
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00119402
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4177513 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.957 %% (min)
+#               82.0182 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2068.41         MB (min over tasks)
+# Current RSS: 2227.02         MB (max over tasks)
+# Peak RSS:    2513.81         MB (min over tasks)
+# Peak RSS:    2738.92         MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 8 Total steps taken: 19
+Positions from  z = 1.66667         -> 1.52632        
+Velocities from z = 1.74286         -> 1.59459        
+deltatime_pos = 0.160533        deltatime_vel = 0.167992       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.00050738
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00120784
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4177142 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.8522 %% (min)
+#               82.0959 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2069.71         MB (min over tasks)
+# Current RSS: 2227.05         MB (max over tasks)
+# Peak RSS:    2530.65         MB (min over tasks)
+# Peak RSS:    2754.63         MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 8 Total steps taken: 20
+Positions from  z = 1.52632         -> 1.4            
+Velocities from z = 1.59459         -> 1.46154        
+deltatime_pos = 0.146831        deltatime_vel = 0.153409       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000483557
+[Kick] + [Drift] Scaledependent COLA 2LPT
+sending incremental file list
+
+sent 27,438 bytes  received 123 bytes  18,374.00 bytes/sec
+total size is 312,183,392  speedup is 11,326.00
+[Drift] Max displacement: 0.00119751
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4176283 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.7549 %% (min)
+#               82.1959 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2085.64         MB (min over tasks)
+# Current RSS: 2227.05         MB (max over tasks)
+# Peak RSS:    2546.68         MB (min over tasks)
+# Peak RSS:    2767.5          MB (max over tasks)
+#=====================================================
+
+Taking substep: 4 / 8 Total steps taken: 21
+Positions from  z = 1.4             -> 1.28571        
+Velocities from z = 1.46154         -> 1.34146        
+deltatime_pos = 0.134693        deltatime_vel = 0.140533       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000507795
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00128071
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4174849 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.6588 %% (min)
+#               82.3348 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2085.67         MB (min over tasks)
+# Current RSS: 2227.05         MB (max over tasks)
+# Peak RSS:    2560.49         MB (min over tasks)
+# Peak RSS:    2783.21         MB (max over tasks)
+#=====================================================
+
+Taking substep: 5 / 8 Total steps taken: 22
+Positions from  z = 1.28571         -> 1.18182        
+Velocities from z = 1.34146         -> 1.23256        
+deltatime_pos = 0.123873        deltatime_vel = 0.129088       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000456188
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00115967
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4173760 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.5601 %% (min)
+#               82.4401 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2085.43         MB (min over tasks)
+# Current RSS: 2227.05         MB (max over tasks)
+# Peak RSS:    2573.44         MB (min over tasks)
+# Peak RSS:    2798.11         MB (max over tasks)
+#=====================================================
+
+Taking substep: 6 / 8 Total steps taken: 23
+Positions from  z = 1.18182         -> 1.08696        
+Velocities from z = 1.23256         -> 1.13333        
+deltatime_pos = 0.114175        deltatime_vel = 0.118857       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000516085
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.0012174
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4171745 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.4516 %% (min)
+#               82.5509 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2085.18         MB (min over tasks)
+# Current RSS: 2227.05         MB (max over tasks)
+# Peak RSS:    2585.69         MB (min over tasks)
+# Peak RSS:    2811.95         MB (max over tasks)
+#=====================================================
+
+Taking substep: 7 / 8 Total steps taken: 24
+Positions from  z = 1.08696         -> 1              
+Velocities from z = 1.13333         -> 1.04255        
+deltatime_pos = 0.105441        deltatime_vel = 0.109665       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000462407
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00118633
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4169583 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.3406 %% (min)
+#               82.6699 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2084.92         MB (min over tasks)
+# Current RSS: 2227.06         MB (max over tasks)
+# Peak RSS:    2597.32         MB (min over tasks)
+# Peak RSS:    2824.78         MB (max over tasks)
+#=====================================================
+
+Taking substep: 8 / 8 Total steps taken: 25
+Positions from  z = 1               -> 1              
+Velocities from z = 1.04255         -> 1              
+deltatime_pos = 0               deltatime_vel = 0.0511421      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000107163
+[Kick] + [Drift] Scaledependent COLA 2LPT
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4169583 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.3406 %% (min)
+#               82.6699 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2066.64         MB (min over tasks)
+# Current RSS: 2227.05         MB (max over tasks)
+# Peak RSS:    2608.3          MB (min over tasks)
+# Peak RSS:    2836.93         MB (max over tasks)
+#=====================================================
+
+#=====================================================
+# Analyze and output
+#=====================================================
+Doing output 2 at redshift z = 1
+Snapshot will be stored in folder /home/joaoreboucas/COLA_projects/wCDM/outputs/251/snapshot_run_251_z1.000
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+#=====================================================
+# Computing power-spectrum of particles
+# pofk_nmesh                     : 1024
+# pofk_density_assignment_method : PCS
+# pofk_interlacing               : true
+# pofk_subtract_shotnoise        : false
+#=====================================================
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+Taking substep: 0 / 9 Total steps taken: 25
+Positions from  z = 1               -> 0.928571       
+Velocities from z = 1               -> 0.963636       
+deltatime_pos = 0.087072        deltatime_vel = 0.0446899      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 8.18289e-05
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00104217
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4168476 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.2648 %% (min)
+#               82.7808 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2082.7          MB (min over tasks)
+# Current RSS: 2227.05         MB (max over tasks)
+# Peak RSS:    2608.3          MB (min over tasks)
+# Peak RSS:    2836.93         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 9 Total steps taken: 26
+Positions from  z = 0.928571        -> 0.862069       
+Velocities from z = 0.963636        -> 0.894737       
+deltatime_pos = 0.0813491       deltatime_vel = 0.0841328      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000359064
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00108905
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4167617 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.1791 %% (min)
+#               82.8785 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2082.25         MB (min over tasks)
+# Current RSS: 2227.04         MB (max over tasks)
+# Peak RSS:    2617.36         MB (min over tasks)
+# Peak RSS:    2846.95         MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 9 Total steps taken: 27
+Positions from  z = 0.862069        -> 0.8            
+Velocities from z = 0.894737        -> 0.830508       
+deltatime_pos = 0.0760861       deltatime_vel = 0.0786482      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000316789
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00106276
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4167069 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.0981 %% (min)
+#               82.976 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2081.91         MB (min over tasks)
+# Current RSS: 2227.03         MB (max over tasks)
+# Peak RSS:    2625.94         MB (min over tasks)
+# Peak RSS:    2856.17         MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 9 Total steps taken: 28
+Positions from  z = 0.8             -> 0.741935       
+Velocities from z = 0.830508        -> 0.770492       
+deltatime_pos = 0.0712352       deltatime_vel = 0.0735984      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000284288
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00105402
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4166480 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               77.0311 %% (min)
+#               83.0596 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2081.59         MB (min over tasks)
+# Current RSS: 2227            MB (max over tasks)
+# Peak RSS:    2634.14         MB (min over tasks)
+# Peak RSS:    2865.09         MB (max over tasks)
+#=====================================================
+
+Taking substep: 4 / 9 Total steps taken: 29
+Positions from  z = 0.741935        -> 0.6875         
+Velocities from z = 0.770492        -> 0.714286       
+deltatime_pos = 0.0667554       deltatime_vel = 0.0689392      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000296839
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00102499
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4166080 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.9625 %% (min)
+#               83.1655 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2081.34         MB (min over tasks)
+# Current RSS: 2226.95         MB (max over tasks)
+# Peak RSS:    2642.05         MB (min over tasks)
+# Peak RSS:    2873.19         MB (max over tasks)
+#=====================================================
+
+Taking substep: 5 / 9 Total steps taken: 30
+Positions from  z = 0.6875          -> 0.636364       
+Velocities from z = 0.714286        -> 0.661538       
+deltatime_pos = 0.062611        deltatime_vel = 0.0646325      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000331301
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00102636
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4165748 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.9034 %% (min)
+#               83.2512 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2081.04         MB (min over tasks)
+# Current RSS: 2226.95         MB (max over tasks)
+# Peak RSS:    2649.28         MB (min over tasks)
+# Peak RSS:    2881.02         MB (max over tasks)
+#=====================================================
+
+Taking substep: 6 / 9 Total steps taken: 31
+Positions from  z = 0.636364        -> 0.588235       
+Velocities from z = 0.661538        -> 0.61194        
+deltatime_pos = 0.0587712       deltatime_vel = 0.0606451      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000288924
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000987413
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4165812 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.8539 %% (min)
+#               83.3599 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2080.69         MB (min over tasks)
+# Current RSS: 2226.95         MB (max over tasks)
+# Peak RSS:    2656.08         MB (min over tasks)
+# Peak RSS:    2888.11         MB (max over tasks)
+#=====================================================
+
+Taking substep: 7 / 9 Total steps taken: 32
+Positions from  z = 0.588235        -> 0.542857       
+Velocities from z = 0.61194         -> 0.565217       
+deltatime_pos = 0.0552087       deltatime_vel = 0.0569481      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000263372
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00102459
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4165392 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.7896 %% (min)
+#               83.4652 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2072.75         MB (min over tasks)
+# Current RSS: 2226.96         MB (max over tasks)
+# Peak RSS:    2658.95         MB (min over tasks)
+# Peak RSS:    2895.1          MB (max over tasks)
+#=====================================================
+
+Taking substep: 8 / 9 Total steps taken: 33
+Positions from  z = 0.542857        -> 0.5            
+Velocities from z = 0.565217        -> 0.521127       
+deltatime_pos = 0.0518996       deltatime_vel = 0.053516       
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000294527
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000985355
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4164786 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.7087 %% (min)
+#               83.5605 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2071.87         MB (min over tasks)
+# Current RSS: 2226.96         MB (max over tasks)
+# Peak RSS:    2664.22         MB (min over tasks)
+# Peak RSS:    2901.5          MB (max over tasks)
+#=====================================================
+
+Taking substep: 9 / 9 Total steps taken: 34
+Positions from  z = 0.5             -> 0.5            
+Velocities from z = 0.521127        -> 0.5            
+deltatime_pos = 0               deltatime_vel = 0.0253728      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 7.09864e-05
+[Kick] + [Drift] Scaledependent COLA 2LPT
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4164786 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.7087 %% (min)
+#               83.5605 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2048.1          MB (min over tasks)
+# Current RSS: 2226.96         MB (max over tasks)
+# Peak RSS:    2668.53         MB (min over tasks)
+# Peak RSS:    2907.22         MB (max over tasks)
+#=====================================================
+
+#=====================================================
+# Analyze and output
+#=====================================================
+Doing output 3 at redshift z = 0.5
+Snapshot will be stored in folder /home/joaoreboucas/COLA_projects/wCDM/outputs/251/snapshot_run_251_z0.500
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+#=====================================================
+# Computing power-spectrum of particles
+# pofk_nmesh                     : 1024
+# pofk_density_assignment_method : PCS
+# pofk_interlacing               : true
+# pofk_subtract_shotnoise        : false
+#=====================================================
+Adding on the LPT velocity to particles (COLA 2LPT scaledependent)
+
+Taking substep: 0 / 17 Total steps taken: 34
+Positions from  z = 0.5             -> 0.457143       
+Velocities from z = 0.5             -> 0.478261       
+deltatime_pos = 0.0516035       deltatime_vel = 0.0264084      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 7.68991e-05
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00103894
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4163684 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.6294 %% (min)
+#               83.6603 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2061.77         MB (min over tasks)
+# Current RSS: 2226.96         MB (max over tasks)
+# Peak RSS:    2668.53         MB (min over tasks)
+# Peak RSS:    2907.41         MB (max over tasks)
+#=====================================================
+
+Taking substep: 1 / 17 Total steps taken: 35
+Positions from  z = 0.457143        -> 0.416667       
+Velocities from z = 0.478261        -> 0.43662        
+deltatime_pos = 0.0484062       deltatime_vel = 0.0499671      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000305455
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00103338
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4162288 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.5695 %% (min)
+#               83.7655 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2061.48         MB (min over tasks)
+# Current RSS: 2226.96         MB (max over tasks)
+# Peak RSS:    2671.94         MB (min over tasks)
+# Peak RSS:    2913.23         MB (max over tasks)
+#=====================================================
+
+Taking substep: 2 / 17 Total steps taken: 36
+Positions from  z = 0.416667        -> 0.378378       
+Velocities from z = 0.43662         -> 0.39726        
+deltatime_pos = 0.0454401       deltatime_vel = 0.0468886      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000285565
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000999592
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4160392 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.5069 %% (min)
+#               83.8629 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2056.56         MB (min over tasks)
+# Current RSS: 2226.96         MB (max over tasks)
+# Peak RSS:    2677.14         MB (min over tasks)
+# Peak RSS:    2918.69         MB (max over tasks)
+#=====================================================
+
+Taking substep: 3 / 17 Total steps taken: 37
+Positions from  z = 0.378378        -> 0.342105       
+Velocities from z = 0.39726         -> 0.36           
+deltatime_pos = 0.0426862       deltatime_vel = 0.0440316      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.00027445
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.000987197
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4158812 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.4514 %% (min)
+#               83.9657 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2052.23         MB (min over tasks)
+# Current RSS: 2226.96         MB (max over tasks)
+# Peak RSS:    2682.41         MB (min over tasks)
+# Peak RSS:    2923.96         MB (max over tasks)
+#=====================================================
+
+Taking substep: 4 / 17 Total steps taken: 38
+Positions from  z = 0.342105        -> 0.307692       
+Velocities from z = 0.36            -> 0.324675       
+deltatime_pos = 0.0401272       deltatime_vel = 0.0413777      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000259458
+[Kick] + [Drift] Scaledependent COLA 2LPT
+[Drift] Max displacement: 0.00102979
+
+#=====================================================
+#
+#            .___        _____          
+#            |   | _____/ ____\____     
+#            |   |/    \   __\/  _ \    
+#            |   |   |  \  | (  <_> )   
+#            |___|___|  /__|  \____/    
+#                     \/                
+#
+# Info about MPIParticles. Dimension of particles is 3
+# We have allocated 545.26 MB (mean)
+#                   545.26 MB (min)
+#                   545.26 MB (max)
+# Total particles across all tasks is 1073741824
+# Task 0 has 4156369 parts. Capacity: 5242880
+# The buffer is 80 %% (mean)
+#               76.414 %% (min)
+#               84.0646 %% (max) filled across tasks
+#
+#=====================================================
+
+#=====================================================
+# System memory use (resident set size): 
+# Current RSS: 2051.48         MB (min over tasks)
+# Current RSS: 2226.96         MB (max over tasks)
+# Peak RSS:    2687.24         MB (min over tasks)
+# Peak RSS:    2928.96         MB (max over tasks)
+#=====================================================
+
+Taking substep: 5 / 17 Total steps taken: 39
+Positions from  z = 0.307692        -> 0.275          
+Velocities from z = 0.324675        -> 0.291139       
+deltatime_pos = 0.0377477       deltatime_vel = 0.0389108      
+Adding particles (baryons+CDM) to the densityfield
+Adding linear massive neutrinos to the densityfield
+[Kick] Max delta_vel * delta_time : 0.000223278
+[Kick] + [Drift] Scaledependent COLA 2LPT
