@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {0..499}; do
+for i in {476..499}; do
     if [ -d "./${i}" ]; then
         echo Simulation ${i} is already here
     else
